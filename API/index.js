@@ -5,6 +5,7 @@ exports.tutorial = require('./tutorial.js');
 exports.starthub = require('./starthub.js');
 exports.selectbody = require('./selectbody.js');
 exports.startfloor = require('./startfloor.js');
+exports.movefloor = require('./movefloor.js');
 exports.arrival = require('./arrival.js');
 exports.die = require('./die.js');
 exports.presents = require('./presents.js');

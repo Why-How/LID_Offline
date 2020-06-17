@@ -1,0 +1,3029 @@
+{
+  "flr": {
+    "stgid": "S_MET",
+    "stgpfx": "Metro",
+    "flrid": "MET_FLR_03",
+    "flrno": 3,
+    "areaid": "MET_AREA_031",
+    "unitid": "METRO_START_V01",
+    "refstgid": "S_MET",
+    "refstgpfx": "Metro",
+    "refareaid": "MET_AREA_031",
+    "escl": {
+      "ups": [],
+      "downs": []
+    },
+    "name": "AREA_NAME.TXT_MET_0004",
+    "sname": "3",
+    "dbg": 0,
+    "units": [
+      {
+        "unit": "START_V01",
+        "kis": "START_V01_KIS_BS",
+        "pntlsts": [
+          {
+            "type": "TGTPNTTP_DUST",
+            "pnts": [
+              "MET_DST_TGT_00"
+            ]
+          },
+          {
+            "type": "TGTPNTTP_MSR",
+            "pnts": [
+              "MET_MSR_TGT_00",
+              "MET_MSR_TGT_01",
+              "MET_MSR_TGT_02",
+              "MET_MSR_TGT_03"
+            ]
+          }
+        ]
+      },
+      {
+        "unit": "A20_CV_V01",
+        "kis": "A20_CV_V01_KIS_Z",
+        "pntlsts": [
+          {
+            "type": "TGTPNTTP_BST",
+            "pnts": [
+              "MET_BST_TGT_00",
+              "MET_BST_TGT_01"
+            ]
+          },
+          {
+            "type": "TGTPNTTP_ITEM",
+            "pnts": [
+              "MET_ITM_TGT_04",
+              "MET_ITM_TGT_05",
+              "MET_ITM_TGT_06"
+            ]
+          },
+          {
+            "type": "TGTPNTTP_TRBOX",
+            "pnts": [
+              "MET_TB_TGT_00",
+              "MET_TB_TGT_01"
+            ]
+          },
+          {
+            "type": "TGTPNTTP_ZAKO",
+            "pnts": [
+              "MET_ZAKO_TGT_00",
+              "MET_ZAKO_TGT_01"
+            ]
+          }
+        ]
+      },
+      {
+        "unit": "A05_ST_V01",
+        "kis": "",
+        "pntlsts": [
+          {
+            "type": "TGTPNTTP_BST",
+            "pnts": [
+              "MET_BST_TGT_00"
+            ]
+          },
+          {
+            "type": "TGTPNTTP_ITEM",
+            "pnts": [
+              "MET_ITM_TGT_00"
+            ]
+          },
+          {
+            "type": "TGTPNTTP_TRBOX",
+            "pnts": [
+              "MET_TB_TGT_00"
+            ]
+          },
+          {
+            "type": "TGTPNTTP_ZAKO",
+            "pnts": [
+              "MET_ZAKO_TGT_01",
+              "MET_ZAKO_TGT_02"
+            ]
+          },
+          {
+            "type": "TGTPNTTP_ZMB",
+            "pnts": [
+              "MET_ZMB_TGT_00"
+            ]
+          }
+        ]
+      },
+      {
+        "unit": "A18_ST_V01",
+        "kis": "",
+        "pntlsts": [
+          {
+            "type": "TGTPNTTP_BST",
+            "pnts": [
+              "MET_BST_TGT_00"
+            ]
+          },
+          {
+            "type": "TGTPNTTP_ITEM",
+            "pnts": [
+              "MET_ITM_TGT_00",
+              "MET_ITM_TGT_01",
+              "MET_ITM_TGT_02"
+            ]
+          },
+          {
+            "type": "TGTPNTTP_STAMP",
+            "pnts": [
+              "MET_STMP_TGT_00"
+            ]
+          },
+          {
+            "type": "TGTPNTTP_TRBOX",
+            "pnts": [
+              "MET_TB_TGT_00",
+              "MET_TB_TGT_01"
+            ]
+          },
+          {
+            "type": "TGTPNTTP_ZMB",
+            "pnts": [
+              "MET_ZMB_TGT_00",
+              "MET_ZMB_TGT_01",
+              "MET_ZMB_TGT_02",
+              "MET_ZMB_TGT_03"
+            ]
+          }
+        ]
+      },
+      {
+        "unit": "A22_BR",
+        "kis": "",
+        "pntlsts": [
+          {
+            "type": "TGTPNTTP_ITEM",
+            "pnts": [
+              "MET_ITM_TGT_00",
+              "MET_ITM_TGT_01",
+              "MET_ITM_TGT_02"
+            ]
+          },
+          {
+            "type": "TGTPNTTP_MSR",
+            "pnts": [
+              "MET_MSR_TGT_00",
+              "MET_MSR_TGT_01"
+            ]
+          },
+          {
+            "type": "TGTPNTTP_TRBOX",
+            "pnts": [
+              "MET_TB_TGT_00"
+            ]
+          },
+          {
+            "type": "TGTPNTTP_ZMB",
+            "pnts": [
+              "MET_ZMB_TGT_00",
+              "MET_ZMB_TGT_01",
+              "MET_ZMB_TGT_02"
+            ]
+          }
+        ]
+      },
+      {
+        "unit": "ELEVATOR",
+        "kis": "",
+        "pntlsts": []
+      },
+      {
+        "unit": "A03_CV_V01",
+        "kis": "A03_CV_V01_KIS_Z",
+        "pntlsts": [
+          {
+            "type": "TGTPNTTP_ITEM",
+            "pnts": [
+              "MET_ITM_TGT_02",
+              "MET_ITM_TGT_03",
+              "MET_ITM_TGT_04"
+            ]
+          },
+          {
+            "type": "TGTPNTTP_ZAKO",
+            "pnts": [
+              "MET_ZAKO_TGT_00"
+            ]
+          }
+        ]
+      },
+      {
+        "unit": "A21_ST_V01",
+        "kis": "",
+        "pntlsts": [
+          {
+            "type": "TGTPNTTP_ITEM",
+            "pnts": [
+              "MET_ITM_TGT_00",
+              "MET_ITM_TGT_01"
+            ]
+          },
+          {
+            "type": "TGTPNTTP_MBOSS",
+            "pnts": [
+              "MET_MBS_TGT_00"
+            ]
+          },
+          {
+            "type": "TGTPNTTP_MSR",
+            "pnts": [
+              "MET_MSR_TGT_00",
+              "MET_MSR_TGT_01"
+            ]
+          }
+        ]
+      },
+      {
+        "unit": "GOAL3",
+        "kis": "",
+        "pntlsts": [
+          {
+            "type": "TGTPNTTP_MSR",
+            "pnts": [
+              "MET_MSR_TGT_00",
+              "MET_MSR_TGT_01"
+            ]
+          },
+          {
+            "type": "TGTPNTTP_TRBOX",
+            "pnts": [
+              "MET_TB_TGT_00"
+            ]
+          }
+        ]
+      },
+      {
+        "unit": "A08_DE",
+        "kis": "A08_DE_KIS_BT",
+        "pntlsts": [
+          {
+            "type": "TGTPNTTP_ITEM",
+            "pnts": [
+              "MET_ITM_TGT_02",
+              "MET_ITM_TGT_03",
+              "MET_ITM_TGT_04",
+              "MET_ITM_TGT_05",
+              "MET_ITM_TGT_06",
+              "MET_ITM_TGT_07"
+            ]
+          },
+          {
+            "type": "TGTPNTTP_TRBOX",
+            "pnts": [
+              "MET_TB_TGT_01"
+            ]
+          },
+          {
+            "type": "TGTPNTTP_ZMB",
+            "pnts": [
+              "MET_ZMB_TGT_04",
+              "MET_ZMB_TGT_05",
+              "MET_ZMB_TGT_06"
+            ]
+          }
+        ]
+      }
+    ],
+    "rlg": "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",
+    "gmcdmgscale": 100,
+    "zmbs": [
+      {
+        "zid": "0f5bbebf-1052-4dbe-9186-2761301458cd",
+        "did": "05aa420b-8ec8-4d6d-b1da-cf5a65cc75f3",
+        "uid": 349899,
+        "clazz": 2,
+        "name": "davidlee",
+        "cname": "",
+        "body": {
+          "id": "BODY_MALE_003",
+          "gender": "GENDER_MALE",
+          "baid": "ASSET_MALE_BODY_003",
+          "haid": "ASSET_MALE_HAIR_001",
+          "colr": 1,
+          "colg": 1,
+          "colb": 1,
+          "voicep": 3,
+          "voiceb": 2,
+          "provoke": 7
+        },
+        "gasmask": "",
+        "attp": "ZMBATTP_PLAYER",
+        "eqtp": "ZMBEQTP_NORMAL",
+        "lvl": 14,
+        "type": "BAL",
+        "grade": 1,
+        "limit_break": 0,
+        "atkup": -70,
+        "defup": -80,
+        "exp": 31,
+        "abp": 0,
+        "prio": 1,
+        "zako": 0,
+        "path": "",
+        "state": 1,
+        "vip": 0,
+        "pspts": [
+          {
+            "eptid": "12cef078-2067-492c-b717-8891d60a5b7f",
+            "gettime": 0,
+            "ptid": "PT_DIY_TOPS_017",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 177,
+            "lvl": 3,
+            "zid": "0f5bbebf-1052-4dbe-9186-2761301458cd"
+          },
+          {
+            "eptid": "a39e5da3-9273-494e-96f0-33124cc6bb42",
+            "gettime": 0,
+            "ptid": "PT_ARM_WP044_001",
+            "rest": 15,
+            "spare": 45,
+            "grade": 0,
+            "dur": 374,
+            "lvl": 1,
+            "zid": "0f5bbebf-1052-4dbe-9186-2761301458cd"
+          },
+          {
+            "eptid": "bec2b95d-8224-48ad-8d0c-1976592ac9e6",
+            "gettime": 0,
+            "ptid": "PT_FAN_BTM_001",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 24,
+            "lvl": 1,
+            "zid": "0f5bbebf-1052-4dbe-9186-2761301458cd"
+          },
+          {
+            "eptid": "85aa7bee-5a86-4ed0-9e5b-c1443f4b4b98",
+            "gettime": 0,
+            "ptid": "PT_ARM_WP006_001",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 698,
+            "lvl": 1,
+            "zid": "0f5bbebf-1052-4dbe-9186-2761301458cd"
+          },
+          {
+            "eptid": "612062f2-626b-4f24-8ec8-2ff1c5e6fea7",
+            "gettime": 0,
+            "ptid": "PT_ARM_WP044_001",
+            "rest": 15,
+            "spare": 45,
+            "grade": 0,
+            "dur": 333,
+            "lvl": 1,
+            "zid": "0f5bbebf-1052-4dbe-9186-2761301458cd"
+          },
+          {
+            "eptid": "8c5800f3-bfa0-4484-93f2-02ad9d200fd6",
+            "gettime": 0,
+            "ptid": "PT_ARM_WP006_001",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 395,
+            "lvl": 1,
+            "zid": "0f5bbebf-1052-4dbe-9186-2761301458cd"
+          }
+        ],
+        "eqpts": [
+          {
+            "eptid": "12cef078-2067-492c-b717-8891d60a5b7f",
+            "site": "EQSITE_BODY"
+          },
+          {
+            "eptid": "8c5800f3-bfa0-4484-93f2-02ad9d200fd6",
+            "site": "EQSITE_ARMR"
+          }
+        ],
+        "psskls": [],
+        "mstlvl": [
+          {
+            "ptarmtp": "PTARMTP_00",
+            "lvl": 11
+          },
+          {
+            "ptarmtp": "PTARMTP_06",
+            "lvl": 16
+          }
+        ],
+        "eqskls": [
+          {
+            "id": "SKL_DRAIN_02",
+            "slot": 0,
+            "x": 0,
+            "y": 0,
+            "rot": 0
+          }
+        ],
+        "rwd": {
+          "money": 1318,
+          "spirit": 70,
+          "pts": [
+            {
+              "eptid": "8c5800f3-bfa0-4484-93f2-02ad9d200fd6"
+            }
+          ],
+          "msrs": [],
+          "items": [],
+          "tbtp": ""
+        },
+        "stat": {
+          "elms": []
+        },
+        "bodylvl": {
+          "lvl": 14,
+          "hp": 5,
+          "str": 5,
+          "dex": 2,
+          "vit": 1,
+          "stm": 5,
+          "luk": 1,
+          "skill": 0,
+          "bag": 0
+        },
+        "bodybonus": {
+          "hp_bonus": 0,
+          "str_bonus": 0,
+          "dex_bonus": 0,
+          "vit_bonus": 0,
+          "stm_bonus": 0,
+          "luk_bonus": 0
+        },
+        "hunter": 0,
+        "hp": 320,
+        "emblem": "TM_EM_0047",
+        "teamname": "Alaska",
+        "isduring": 0,
+        "isfriend": 0,
+        "bodymaxlvl": 6,
+        "unit": "A22_BR",
+        "pntid": "MET_ZMB_TGT_02"
+      },
+      {
+        "zid": "8a26269b-cfc0-46c4-b2de-a22c42f7d151",
+        "did": -1,
+        "uid": -1,
+        "clazz": 0,
+        "name": "",
+        "cname": "",
+        "body": {
+          "id": "BODY_FEMALE_008",
+          "gender": "GENDER_FEMALE",
+          "baid": "ASSET_FEMALE_BODY_008",
+          "haid": "ASSET_FEMALE_HAIR_008",
+          "colr": 1,
+          "colg": 1,
+          "colb": 1,
+          "voicep": 8,
+          "voiceb": 8,
+          "provoke": 22
+        },
+        "gasmask": "",
+        "attp": "ZMBATTP_PLAYER",
+        "eqtp": "ZMBEQTP_NORMAL",
+        "lvl": 5,
+        "type": "BAL",
+        "grade": 1,
+        "limit_break": 0,
+        "atkup": 0,
+        "defup": 0,
+        "exp": 19,
+        "abp": 0,
+        "prio": 0,
+        "zako": 1,
+        "path": "",
+        "state": 1,
+        "vip": 0,
+        "pspts": [
+          {
+            "eptid": "bfcfc05c-6ea9-473f-a792-f03d93061639",
+            "gettime": 0,
+            "ptid": "PT_ARM_WP012_001",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 644,
+            "lvl": 1,
+            "zid": "8a26269b-cfc0-46c4-b2de-a22c42f7d151"
+          },
+          {
+            "eptid": "5c0f288e-99eb-442b-91cc-fe6bf2275b47",
+            "gettime": 0,
+            "ptid": "PT_DIY_TOPS_019",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 577,
+            "lvl": 1,
+            "zid": "8a26269b-cfc0-46c4-b2de-a22c42f7d151"
+          },
+          {
+            "eptid": "48eafef3-e2eb-4d83-bd85-ff7423b3242b",
+            "gettime": 0,
+            "ptid": "PT_DIY_HEAD_019",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 355,
+            "lvl": 1,
+            "zid": "8a26269b-cfc0-46c4-b2de-a22c42f7d151"
+          },
+          {
+            "eptid": "3e786b31-6b7c-45cb-a563-553f8a7928c3",
+            "gettime": 0,
+            "ptid": "PT_DIY_BTM_019",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 611,
+            "lvl": 1,
+            "zid": "8a26269b-cfc0-46c4-b2de-a22c42f7d151"
+          }
+        ],
+        "eqpts": [
+          {
+            "eptid": "bfcfc05c-6ea9-473f-a792-f03d93061639",
+            "site": "EQSITE_ARMR"
+          },
+          {
+            "eptid": "5c0f288e-99eb-442b-91cc-fe6bf2275b47",
+            "site": "EQSITE_BODY"
+          },
+          {
+            "eptid": "48eafef3-e2eb-4d83-bd85-ff7423b3242b",
+            "site": "EQSITE_HEAD"
+          },
+          {
+            "eptid": "3e786b31-6b7c-45cb-a563-553f8a7928c3",
+            "site": "EQSITE_LEGS"
+          }
+        ],
+        "psskls": [],
+        "mstlvl": [],
+        "eqskls": [],
+        "rwd": {
+          "money": 80,
+          "spirit": 0,
+          "pts": [
+            {
+              "eptid": "bfcfc05c-6ea9-473f-a792-f03d93061639"
+            }
+          ],
+          "msrs": [],
+          "items": [],
+          "tbtp": ""
+        },
+        "stat": {
+          "elms": []
+        },
+        "bodylvl": {
+          "lvl": 5,
+          "hp": 2,
+          "str": 2,
+          "dex": 2,
+          "vit": 2,
+          "stm": 1,
+          "luk": 1,
+          "skill": 0,
+          "bag": 0
+        },
+        "bodybonus": {
+          "hp_bonus": 0,
+          "str_bonus": 0,
+          "dex_bonus": 0,
+          "vit_bonus": 0,
+          "stm_bonus": 0,
+          "luk_bonus": 0
+        },
+        "hunter": 0,
+        "hp": 230,
+        "emblem": "",
+        "teamname": "",
+        "isduring": 0,
+        "isfriend": 0,
+        "bodymaxlvl": 6,
+        "unit": "A08_DE",
+        "pntid": "MET_ZMB_TGT_06"
+      },
+      {
+        "zid": "8f85420d-e8ad-48c2-82a9-fdb1d292ac4f",
+        "did": -1,
+        "uid": -1,
+        "clazz": 0,
+        "name": "",
+        "cname": "",
+        "body": {
+          "id": "BODY_FEMALE_002",
+          "gender": "GENDER_FEMALE",
+          "baid": "ASSET_FEMALE_BODY_002",
+          "haid": "ASSET_FEMALE_HAIR_002",
+          "colr": 1,
+          "colg": 1,
+          "colb": 1,
+          "voicep": 2,
+          "voiceb": 5,
+          "provoke": 4
+        },
+        "gasmask": "",
+        "attp": "ZMBATTP_PLAYER",
+        "eqtp": "ZMBEQTP_NORMAL",
+        "lvl": 7,
+        "type": "BAL",
+        "grade": 1,
+        "limit_break": 0,
+        "atkup": 0,
+        "defup": 0,
+        "exp": 21,
+        "abp": 0,
+        "prio": 0,
+        "zako": 1,
+        "path": "",
+        "state": 1,
+        "vip": 0,
+        "pspts": [
+          {
+            "eptid": "93f33a8e-dffb-4b48-a70e-cbe326d77528",
+            "gettime": 0,
+            "ptid": "PT_ARM_WP006_001",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 686,
+            "lvl": 1,
+            "zid": "8f85420d-e8ad-48c2-82a9-fdb1d292ac4f"
+          },
+          {
+            "eptid": "db413702-309d-4090-b7b3-4b1728c46462",
+            "gettime": 0,
+            "ptid": "PT_DIY_TOPS_009",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 822,
+            "lvl": 1,
+            "zid": "8f85420d-e8ad-48c2-82a9-fdb1d292ac4f"
+          },
+          {
+            "eptid": "8d67f7d9-ad0c-42b9-99aa-847d83931560",
+            "gettime": 0,
+            "ptid": "PT_DIY_HEAD_009",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 445,
+            "lvl": 1,
+            "zid": "8f85420d-e8ad-48c2-82a9-fdb1d292ac4f"
+          },
+          {
+            "eptid": "0c37d6a4-f9a4-4b11-8c90-d3227f00caf0",
+            "gettime": 0,
+            "ptid": "PT_DIY_BTM_009",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 494,
+            "lvl": 1,
+            "zid": "8f85420d-e8ad-48c2-82a9-fdb1d292ac4f"
+          }
+        ],
+        "eqpts": [
+          {
+            "eptid": "93f33a8e-dffb-4b48-a70e-cbe326d77528",
+            "site": "EQSITE_ARMR"
+          },
+          {
+            "eptid": "db413702-309d-4090-b7b3-4b1728c46462",
+            "site": "EQSITE_BODY"
+          },
+          {
+            "eptid": "8d67f7d9-ad0c-42b9-99aa-847d83931560",
+            "site": "EQSITE_HEAD"
+          },
+          {
+            "eptid": "0c37d6a4-f9a4-4b11-8c90-d3227f00caf0",
+            "site": "EQSITE_LEGS"
+          }
+        ],
+        "psskls": [],
+        "mstlvl": [],
+        "eqskls": [],
+        "rwd": {
+          "money": 97,
+          "spirit": 0,
+          "pts": [
+            {
+              "eptid": "93f33a8e-dffb-4b48-a70e-cbe326d77528"
+            }
+          ],
+          "msrs": [],
+          "items": [],
+          "tbtp": ""
+        },
+        "stat": {
+          "elms": []
+        },
+        "bodylvl": {
+          "lvl": 7,
+          "hp": 2,
+          "str": 2,
+          "dex": 2,
+          "vit": 2,
+          "stm": 2,
+          "luk": 2,
+          "skill": 0,
+          "bag": 0
+        },
+        "bodybonus": {
+          "hp_bonus": 0,
+          "str_bonus": 0,
+          "dex_bonus": 0,
+          "vit_bonus": 0,
+          "stm_bonus": 0,
+          "luk_bonus": 0
+        },
+        "hunter": 0,
+        "hp": 230,
+        "emblem": "",
+        "teamname": "",
+        "isduring": 0,
+        "isfriend": 0,
+        "bodymaxlvl": 6,
+        "unit": "A08_DE",
+        "pntid": "MET_ZMB_TGT_04"
+      },
+      {
+        "zid": "b179403f-7537-4c32-90de-e1890bbe0bd9",
+        "did": -1,
+        "uid": -1,
+        "clazz": 0,
+        "name": "",
+        "cname": "",
+        "body": {
+          "id": "BODY_FEMALE_005",
+          "gender": "GENDER_FEMALE",
+          "baid": "ASSET_FEMALE_BODY_005",
+          "haid": "ASSET_FEMALE_HAIR_005",
+          "colr": 1,
+          "colg": 1,
+          "colb": 1,
+          "voicep": 5,
+          "voiceb": 7,
+          "provoke": 13
+        },
+        "gasmask": "",
+        "attp": "ZMBATTP_PLAYER",
+        "eqtp": "ZMBEQTP_NORMAL",
+        "lvl": 4,
+        "type": "BAL",
+        "grade": 1,
+        "limit_break": 0,
+        "atkup": 0,
+        "defup": 0,
+        "exp": 18,
+        "abp": 0,
+        "prio": 0,
+        "zako": 1,
+        "path": "",
+        "state": 1,
+        "vip": 0,
+        "pspts": [
+          {
+            "eptid": "d704e76c-cd7f-41cf-a9fe-6d2bdcc1820d",
+            "gettime": 0,
+            "ptid": "PT_ARM_WP011_001",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 797,
+            "lvl": 1,
+            "zid": "b179403f-7537-4c32-90de-e1890bbe0bd9"
+          },
+          {
+            "eptid": "bf045225-98fe-4008-b851-12999e742a42",
+            "gettime": 0,
+            "ptid": "PT_DIY_TOPS_009",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 630,
+            "lvl": 1,
+            "zid": "b179403f-7537-4c32-90de-e1890bbe0bd9"
+          },
+          {
+            "eptid": "a0c25a77-8c88-4135-b748-57e34bc6feb4",
+            "gettime": 0,
+            "ptid": "PT_DIY_HEAD_009",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 305,
+            "lvl": 1,
+            "zid": "b179403f-7537-4c32-90de-e1890bbe0bd9"
+          },
+          {
+            "eptid": "3556dca7-f7d4-4185-b1b9-2c2e50e693d5",
+            "gettime": 0,
+            "ptid": "PT_DIY_BTM_009",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 673,
+            "lvl": 1,
+            "zid": "b179403f-7537-4c32-90de-e1890bbe0bd9"
+          }
+        ],
+        "eqpts": [
+          {
+            "eptid": "d704e76c-cd7f-41cf-a9fe-6d2bdcc1820d",
+            "site": "EQSITE_ARMR"
+          },
+          {
+            "eptid": "bf045225-98fe-4008-b851-12999e742a42",
+            "site": "EQSITE_BODY"
+          },
+          {
+            "eptid": "a0c25a77-8c88-4135-b748-57e34bc6feb4",
+            "site": "EQSITE_HEAD"
+          },
+          {
+            "eptid": "3556dca7-f7d4-4185-b1b9-2c2e50e693d5",
+            "site": "EQSITE_LEGS"
+          }
+        ],
+        "psskls": [],
+        "mstlvl": [],
+        "eqskls": [],
+        "rwd": {
+          "money": 84,
+          "spirit": 0,
+          "pts": [
+            {
+              "eptid": "d704e76c-cd7f-41cf-a9fe-6d2bdcc1820d"
+            }
+          ],
+          "msrs": [],
+          "items": [],
+          "tbtp": ""
+        },
+        "stat": {
+          "elms": []
+        },
+        "bodylvl": {
+          "lvl": 4,
+          "hp": 2,
+          "str": 2,
+          "dex": 2,
+          "vit": 1,
+          "stm": 1,
+          "luk": 1,
+          "skill": 0,
+          "bag": 0
+        },
+        "bodybonus": {
+          "hp_bonus": 0,
+          "str_bonus": 0,
+          "dex_bonus": 0,
+          "vit_bonus": 0,
+          "stm_bonus": 0,
+          "luk_bonus": 0
+        },
+        "hunter": 0,
+        "hp": 230,
+        "emblem": "",
+        "teamname": "",
+        "isduring": 0,
+        "isfriend": 0,
+        "bodymaxlvl": 6,
+        "unit": "A08_DE",
+        "pntid": "MET_ZMB_TGT_05"
+      },
+      {
+        "zid": "2d248a51-72e0-4633-8c10-9946ab8c2065",
+        "did": -1,
+        "uid": -1,
+        "clazz": 0,
+        "name": "",
+        "cname": "",
+        "body": {
+          "id": "BODY_MALE_001",
+          "gender": "GENDER_MALE",
+          "baid": "ASSET_MALE_BODY_001",
+          "haid": "",
+          "colr": 1,
+          "colg": 1,
+          "colb": 1,
+          "voicep": 1,
+          "voiceb": 1,
+          "provoke": 1
+        },
+        "gasmask": "",
+        "attp": "ZMBATTP_PLAYER",
+        "eqtp": "ZMBEQTP_NORMAL",
+        "lvl": 6,
+        "type": "BAL",
+        "grade": 1,
+        "limit_break": 0,
+        "atkup": 0,
+        "defup": 0,
+        "exp": 19,
+        "abp": 0,
+        "prio": 2,
+        "zako": 0,
+        "path": "",
+        "state": 1,
+        "vip": 0,
+        "pspts": [
+          {
+            "eptid": "c6c6a487-9b8d-4039-989f-a90b567cbd51",
+            "gettime": 0,
+            "ptid": "PT_ARM_WP037_001",
+            "rest": 280,
+            "spare": 0,
+            "grade": 0,
+            "dur": 854,
+            "lvl": 1,
+            "zid": "2d248a51-72e0-4633-8c10-9946ab8c2065"
+          },
+          {
+            "eptid": "fe2f2895-33fb-4bd5-9c3a-938666302a6f",
+            "gettime": 0,
+            "ptid": "PT_DIY_HEAD_019",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 420,
+            "lvl": 1,
+            "zid": "2d248a51-72e0-4633-8c10-9946ab8c2065"
+          },
+          {
+            "eptid": "7d3c1570-b667-46c6-a613-9bde9cd5d72a",
+            "gettime": 0,
+            "ptid": "PT_DIY_BTM_003",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 618,
+            "lvl": 1,
+            "zid": "2d248a51-72e0-4633-8c10-9946ab8c2065"
+          }
+        ],
+        "eqpts": [
+          {
+            "eptid": "c6c6a487-9b8d-4039-989f-a90b567cbd51",
+            "site": "EQSITE_ARML"
+          },
+          {
+            "eptid": "fe2f2895-33fb-4bd5-9c3a-938666302a6f",
+            "site": "EQSITE_HEAD"
+          },
+          {
+            "eptid": "7d3c1570-b667-46c6-a613-9bde9cd5d72a",
+            "site": "EQSITE_LEGS"
+          }
+        ],
+        "psskls": [],
+        "mstlvl": [],
+        "eqskls": [],
+        "rwd": {
+          "money": 73,
+          "spirit": 0,
+          "pts": [
+            {
+              "eptid": "c6c6a487-9b8d-4039-989f-a90b567cbd51"
+            }
+          ],
+          "msrs": [],
+          "items": [],
+          "tbtp": ""
+        },
+        "stat": {
+          "elms": []
+        },
+        "bodylvl": {
+          "lvl": 6,
+          "hp": 2,
+          "str": 2,
+          "dex": 2,
+          "vit": 2,
+          "stm": 2,
+          "luk": 1,
+          "skill": 0,
+          "bag": 0
+        },
+        "bodybonus": {
+          "hp_bonus": 0,
+          "str_bonus": 0,
+          "dex_bonus": 0,
+          "vit_bonus": 0,
+          "stm_bonus": 0,
+          "luk_bonus": 0
+        },
+        "hunter": 0,
+        "hp": 230,
+        "emblem": "",
+        "teamname": "",
+        "isduring": 0,
+        "isfriend": 0,
+        "bodymaxlvl": 6,
+        "unit": "A18_ST_V01",
+        "pntid": "MET_ZMB_TGT_03"
+      },
+      {
+        "zid": "6082495d-1351-4689-9326-e315a750fada",
+        "did": -1,
+        "uid": -1,
+        "clazz": 0,
+        "name": "",
+        "cname": "",
+        "body": {
+          "id": "BODY_MALE_002",
+          "gender": "GENDER_MALE",
+          "baid": "ASSET_MALE_BODY_002",
+          "haid": "",
+          "colr": 1,
+          "colg": 1,
+          "colb": 1,
+          "voicep": 2,
+          "voiceb": 1,
+          "provoke": 4
+        },
+        "gasmask": "",
+        "attp": "ZMBATTP_PLAYER",
+        "eqtp": "ZMBEQTP_NORMAL",
+        "lvl": 3,
+        "type": "BAL",
+        "grade": 1,
+        "limit_break": 0,
+        "atkup": 0,
+        "defup": 0,
+        "exp": 16,
+        "abp": 0,
+        "prio": 3,
+        "zako": 0,
+        "path": "MET_A22_WND_01",
+        "state": 1,
+        "vip": 0,
+        "pspts": [
+          {
+            "eptid": "469f171d-c509-4b33-ae8f-a1a54cc817d3",
+            "gettime": 0,
+            "ptid": "PT_ARM_WP006_001",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 1092,
+            "lvl": 1,
+            "zid": "6082495d-1351-4689-9326-e315a750fada"
+          },
+          {
+            "eptid": "2ce55351-ff81-43d4-9244-958cc2c79a04",
+            "gettime": 0,
+            "ptid": "PT_DIY_HEAD_019",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 470,
+            "lvl": 1,
+            "zid": "6082495d-1351-4689-9326-e315a750fada"
+          },
+          {
+            "eptid": "f69d53a0-4250-4791-b77b-eced6451c93c",
+            "gettime": 0,
+            "ptid": "PT_DIY_BTM_017",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 522,
+            "lvl": 1,
+            "zid": "6082495d-1351-4689-9326-e315a750fada"
+          }
+        ],
+        "eqpts": [
+          {
+            "eptid": "469f171d-c509-4b33-ae8f-a1a54cc817d3",
+            "site": "EQSITE_ARML"
+          },
+          {
+            "eptid": "2ce55351-ff81-43d4-9244-958cc2c79a04",
+            "site": "EQSITE_HEAD"
+          },
+          {
+            "eptid": "f69d53a0-4250-4791-b77b-eced6451c93c",
+            "site": "EQSITE_LEGS"
+          }
+        ],
+        "psskls": [],
+        "mstlvl": [],
+        "eqskls": [],
+        "rwd": {
+          "money": 87,
+          "spirit": 0,
+          "pts": [
+            {
+              "eptid": "469f171d-c509-4b33-ae8f-a1a54cc817d3"
+            }
+          ],
+          "msrs": [],
+          "items": [],
+          "tbtp": ""
+        },
+        "stat": {
+          "elms": []
+        },
+        "bodylvl": {
+          "lvl": 3,
+          "hp": 2,
+          "str": 2,
+          "dex": 1,
+          "vit": 1,
+          "stm": 1,
+          "luk": 1,
+          "skill": 0,
+          "bag": 0
+        },
+        "bodybonus": {
+          "hp_bonus": 0,
+          "str_bonus": 0,
+          "dex_bonus": 0,
+          "vit_bonus": 0,
+          "stm_bonus": 0,
+          "luk_bonus": 0
+        },
+        "hunter": 0,
+        "hp": 230,
+        "emblem": "",
+        "teamname": "",
+        "isduring": 0,
+        "isfriend": 0,
+        "bodymaxlvl": 6,
+        "unit": "A22_BR",
+        "pntid": "MET_ZMB_TGT_01"
+      },
+      {
+        "zid": "9e4d221c-4580-48c8-9b9f-cbc2d396b337",
+        "did": -1,
+        "uid": -1,
+        "clazz": 0,
+        "name": "",
+        "cname": "",
+        "body": {
+          "id": "BODY_MALE_003",
+          "gender": "GENDER_MALE",
+          "baid": "ASSET_MALE_BODY_003",
+          "haid": "ASSET_MALE_HAIR_001",
+          "colr": 1,
+          "colg": 1,
+          "colb": 1,
+          "voicep": 3,
+          "voiceb": 2,
+          "provoke": 7
+        },
+        "gasmask": "",
+        "attp": "ZMBATTP_PLAYER",
+        "eqtp": "ZMBEQTP_NORMAL",
+        "lvl": 6,
+        "type": "BAL",
+        "grade": 1,
+        "limit_break": 0,
+        "atkup": 0,
+        "defup": 0,
+        "exp": 19,
+        "abp": 0,
+        "prio": 4,
+        "zako": 0,
+        "path": "MET_A18v01_WND_01",
+        "state": 1,
+        "vip": 0,
+        "pspts": [
+          {
+            "eptid": "cf5e06d2-d7f3-4364-94b7-9a19b47a199f",
+            "gettime": 0,
+            "ptid": "PT_ARM_WP037_001",
+            "rest": 280,
+            "spare": 0,
+            "grade": 0,
+            "dur": 826,
+            "lvl": 1,
+            "zid": "9e4d221c-4580-48c8-9b9f-cbc2d396b337"
+          },
+          {
+            "eptid": "5d181df2-e607-40ba-baf4-ac7327670479",
+            "gettime": 0,
+            "ptid": "PT_DIY_HEAD_019",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 335,
+            "lvl": 1,
+            "zid": "9e4d221c-4580-48c8-9b9f-cbc2d396b337"
+          },
+          {
+            "eptid": "ee01dab8-869a-464e-9dc0-5f616dd3f3f5",
+            "gettime": 0,
+            "ptid": "PT_DIY_BTM_019",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 164,
+            "lvl": 1,
+            "zid": "9e4d221c-4580-48c8-9b9f-cbc2d396b337"
+          }
+        ],
+        "eqpts": [
+          {
+            "eptid": "cf5e06d2-d7f3-4364-94b7-9a19b47a199f",
+            "site": "EQSITE_ARMR"
+          },
+          {
+            "eptid": "5d181df2-e607-40ba-baf4-ac7327670479",
+            "site": "EQSITE_HEAD"
+          },
+          {
+            "eptid": "ee01dab8-869a-464e-9dc0-5f616dd3f3f5",
+            "site": "EQSITE_LEGS"
+          }
+        ],
+        "psskls": [],
+        "mstlvl": [],
+        "eqskls": [],
+        "rwd": {
+          "money": 90,
+          "spirit": 0,
+          "pts": [
+            {
+              "eptid": "cf5e06d2-d7f3-4364-94b7-9a19b47a199f"
+            }
+          ],
+          "msrs": [],
+          "items": [],
+          "tbtp": ""
+        },
+        "stat": {
+          "elms": []
+        },
+        "bodylvl": {
+          "lvl": 6,
+          "hp": 2,
+          "str": 2,
+          "dex": 2,
+          "vit": 2,
+          "stm": 2,
+          "luk": 1,
+          "skill": 0,
+          "bag": 0
+        },
+        "bodybonus": {
+          "hp_bonus": 0,
+          "str_bonus": 0,
+          "dex_bonus": 0,
+          "vit_bonus": 0,
+          "stm_bonus": 0,
+          "luk_bonus": 0
+        },
+        "hunter": 0,
+        "hp": 230,
+        "emblem": "",
+        "teamname": "",
+        "isduring": 0,
+        "isfriend": 0,
+        "bodymaxlvl": 6,
+        "unit": "A18_ST_V01",
+        "pntid": "MET_ZMB_TGT_01"
+      },
+      {
+        "zid": "7095220f-1248-4a77-90a5-4ecddf9650de",
+        "did": -1,
+        "uid": -1,
+        "clazz": 0,
+        "name": "",
+        "cname": "",
+        "body": {
+          "id": "BODY_MALE_006",
+          "gender": "GENDER_MALE",
+          "baid": "ASSET_MALE_BODY_006",
+          "haid": "",
+          "colr": 1,
+          "colg": 1,
+          "colb": 1,
+          "voicep": 6,
+          "voiceb": 3,
+          "provoke": 16
+        },
+        "gasmask": "",
+        "attp": "ZMBATTP_PLAYER",
+        "eqtp": "ZMBEQTP_NORMAL",
+        "lvl": 7,
+        "type": "BAL",
+        "grade": 1,
+        "limit_break": 0,
+        "atkup": 0,
+        "defup": 0,
+        "exp": 20,
+        "abp": 0,
+        "prio": 5,
+        "zako": 0,
+        "path": "MET_A18v01_WND_00",
+        "state": 1,
+        "vip": 0,
+        "pspts": [
+          {
+            "eptid": "551a308c-4efd-4240-9e19-a00556892dda",
+            "gettime": 0,
+            "ptid": "PT_ARM_WP012_001",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 1078,
+            "lvl": 1,
+            "zid": "7095220f-1248-4a77-90a5-4ecddf9650de"
+          },
+          {
+            "eptid": "6595a94f-9426-429d-acea-0574a446d7f4",
+            "gettime": 0,
+            "ptid": "PT_DIY_HEAD_009",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 470,
+            "lvl": 1,
+            "zid": "7095220f-1248-4a77-90a5-4ecddf9650de"
+          },
+          {
+            "eptid": "aa208b73-b194-44b2-8b6b-0e49b4d6b650",
+            "gettime": 0,
+            "ptid": "PT_DIY_BTM_003",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 425,
+            "lvl": 1,
+            "zid": "7095220f-1248-4a77-90a5-4ecddf9650de"
+          }
+        ],
+        "eqpts": [
+          {
+            "eptid": "551a308c-4efd-4240-9e19-a00556892dda",
+            "site": "EQSITE_ARMR"
+          },
+          {
+            "eptid": "6595a94f-9426-429d-acea-0574a446d7f4",
+            "site": "EQSITE_HEAD"
+          },
+          {
+            "eptid": "aa208b73-b194-44b2-8b6b-0e49b4d6b650",
+            "site": "EQSITE_LEGS"
+          }
+        ],
+        "psskls": [],
+        "mstlvl": [],
+        "eqskls": [],
+        "rwd": {
+          "money": 98,
+          "spirit": 0,
+          "pts": [],
+          "msrs": [
+            {
+              "emsrid": "65e6ff7e-9175-4ff8-b8f8-7a3dfebe22aa",
+              "msrid": "MSR_001",
+              "gettime": 0,
+              "eefcid": "",
+              "tefcid": "",
+              "state": 0
+            }
+          ],
+          "items": [],
+          "tbtp": ""
+        },
+        "stat": {
+          "elms": []
+        },
+        "bodylvl": {
+          "lvl": 7,
+          "hp": 2,
+          "str": 2,
+          "dex": 2,
+          "vit": 2,
+          "stm": 2,
+          "luk": 2,
+          "skill": 0,
+          "bag": 0
+        },
+        "bodybonus": {
+          "hp_bonus": 0,
+          "str_bonus": 0,
+          "dex_bonus": 0,
+          "vit_bonus": 0,
+          "stm_bonus": 0,
+          "luk_bonus": 0
+        },
+        "hunter": 0,
+        "hp": 230,
+        "emblem": "",
+        "teamname": "",
+        "isduring": 0,
+        "isfriend": 0,
+        "bodymaxlvl": 6,
+        "unit": "A18_ST_V01",
+        "pntid": "MET_ZMB_TGT_00"
+      },
+      {
+        "zid": "0fe9816c-2041-4025-9088-ce578c243d91",
+        "did": -1,
+        "uid": -1,
+        "clazz": 0,
+        "name": "",
+        "cname": "",
+        "body": {
+          "id": "BODY_MALE_002",
+          "gender": "GENDER_MALE",
+          "baid": "ASSET_MALE_BODY_002",
+          "haid": "",
+          "colr": 1,
+          "colg": 1,
+          "colb": 1,
+          "voicep": 2,
+          "voiceb": 1,
+          "provoke": 4
+        },
+        "gasmask": "",
+        "attp": "ZMBATTP_PLAYER",
+        "eqtp": "ZMBEQTP_NORMAL",
+        "lvl": 7,
+        "type": "BAL",
+        "grade": 1,
+        "limit_break": 0,
+        "atkup": 0,
+        "defup": 0,
+        "exp": 20,
+        "abp": 0,
+        "prio": 6,
+        "zako": 0,
+        "path": "MET_A22_WND_00",
+        "state": 1,
+        "vip": 0,
+        "pspts": [
+          {
+            "eptid": "7b8b47a1-9997-43c0-b9a3-1ca8d7561e6b",
+            "gettime": 0,
+            "ptid": "PT_ARM_WP044_001",
+            "rest": 15,
+            "spare": 45,
+            "grade": 0,
+            "dur": 1316,
+            "lvl": 1,
+            "zid": "0fe9816c-2041-4025-9088-ce578c243d91"
+          },
+          {
+            "eptid": "afbda9ef-a8ae-4fb3-a057-a80d9f1f95f7",
+            "gettime": 0,
+            "ptid": "PT_DIY_HEAD_009",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 110,
+            "lvl": 1,
+            "zid": "0fe9816c-2041-4025-9088-ce578c243d91"
+          },
+          {
+            "eptid": "cbe2efc1-700c-4daa-b5e8-6eb69be9f547",
+            "gettime": 0,
+            "ptid": "PT_DIY_BTM_019",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 563,
+            "lvl": 1,
+            "zid": "0fe9816c-2041-4025-9088-ce578c243d91"
+          }
+        ],
+        "eqpts": [
+          {
+            "eptid": "7b8b47a1-9997-43c0-b9a3-1ca8d7561e6b",
+            "site": "EQSITE_ARMR"
+          },
+          {
+            "eptid": "afbda9ef-a8ae-4fb3-a057-a80d9f1f95f7",
+            "site": "EQSITE_HEAD"
+          },
+          {
+            "eptid": "cbe2efc1-700c-4daa-b5e8-6eb69be9f547",
+            "site": "EQSITE_LEGS"
+          }
+        ],
+        "psskls": [],
+        "mstlvl": [],
+        "eqskls": [],
+        "rwd": {
+          "money": 97,
+          "spirit": 0,
+          "pts": [
+            {
+              "eptid": "7b8b47a1-9997-43c0-b9a3-1ca8d7561e6b"
+            }
+          ],
+          "msrs": [],
+          "items": [],
+          "tbtp": ""
+        },
+        "stat": {
+          "elms": []
+        },
+        "bodylvl": {
+          "lvl": 7,
+          "hp": 2,
+          "str": 2,
+          "dex": 2,
+          "vit": 2,
+          "stm": 2,
+          "luk": 2,
+          "skill": 0,
+          "bag": 0
+        },
+        "bodybonus": {
+          "hp_bonus": 0,
+          "str_bonus": 0,
+          "dex_bonus": 0,
+          "vit_bonus": 0,
+          "stm_bonus": 0,
+          "luk_bonus": 0
+        },
+        "hunter": 0,
+        "hp": 230,
+        "emblem": "",
+        "teamname": "",
+        "isduring": 0,
+        "isfriend": 0,
+        "bodymaxlvl": 6,
+        "unit": "A22_BR",
+        "pntid": "MET_ZMB_TGT_00"
+      },
+      {
+        "zid": "e8326812-1dc5-4384-bafb-e84b9146235d",
+        "did": -1,
+        "uid": -1,
+        "clazz": 0,
+        "name": "",
+        "cname": "",
+        "body": {
+          "id": "BODY_MALE_007",
+          "gender": "GENDER_MALE",
+          "baid": "ASSET_MALE_BODY_007",
+          "haid": "ASSET_MALE_HAIR_007",
+          "colr": 1,
+          "colg": 1,
+          "colb": 1,
+          "voicep": 7,
+          "voiceb": 4,
+          "provoke": 19
+        },
+        "gasmask": "",
+        "attp": "ZMBATTP_PLAYER",
+        "eqtp": "ZMBEQTP_NORMAL",
+        "lvl": 7,
+        "type": "BAL",
+        "grade": 1,
+        "limit_break": 0,
+        "atkup": 0,
+        "defup": 0,
+        "exp": 20,
+        "abp": 0,
+        "prio": 7,
+        "zako": 0,
+        "path": "MET_A05v01_WND_00",
+        "state": 1,
+        "vip": 0,
+        "pspts": [
+          {
+            "eptid": "c1d6a829-acb6-47cf-b7fd-d57b3c7c125c",
+            "gettime": 0,
+            "ptid": "PT_ARM_WP037_001",
+            "rest": 280,
+            "spare": 0,
+            "grade": 0,
+            "dur": 1316,
+            "lvl": 1,
+            "zid": "e8326812-1dc5-4384-bafb-e84b9146235d"
+          },
+          {
+            "eptid": "fe9a81a9-46e0-403a-9f0b-113ff44e89de",
+            "gettime": 0,
+            "ptid": "PT_DIY_HEAD_019",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 420,
+            "lvl": 1,
+            "zid": "e8326812-1dc5-4384-bafb-e84b9146235d"
+          },
+          {
+            "eptid": "c7a9d4cc-2659-41d3-81ba-c57ec8c5c621",
+            "gettime": 0,
+            "ptid": "PT_DIY_TOPS_009",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 411,
+            "lvl": 1,
+            "zid": "e8326812-1dc5-4384-bafb-e84b9146235d"
+          }
+        ],
+        "eqpts": [
+          {
+            "eptid": "c1d6a829-acb6-47cf-b7fd-d57b3c7c125c",
+            "site": "EQSITE_ARML"
+          },
+          {
+            "eptid": "fe9a81a9-46e0-403a-9f0b-113ff44e89de",
+            "site": "EQSITE_HEAD"
+          },
+          {
+            "eptid": "c7a9d4cc-2659-41d3-81ba-c57ec8c5c621",
+            "site": "EQSITE_BODY"
+          }
+        ],
+        "psskls": [],
+        "mstlvl": [],
+        "eqskls": [],
+        "rwd": {
+          "money": 90,
+          "spirit": 0,
+          "pts": [
+            {
+              "eptid": "c1d6a829-acb6-47cf-b7fd-d57b3c7c125c"
+            }
+          ],
+          "msrs": [],
+          "items": [],
+          "tbtp": ""
+        },
+        "stat": {
+          "elms": []
+        },
+        "bodylvl": {
+          "lvl": 7,
+          "hp": 2,
+          "str": 2,
+          "dex": 2,
+          "vit": 2,
+          "stm": 2,
+          "luk": 2,
+          "skill": 0,
+          "bag": 0
+        },
+        "bodybonus": {
+          "hp_bonus": 0,
+          "str_bonus": 0,
+          "dex_bonus": 0,
+          "vit_bonus": 0,
+          "stm_bonus": 0,
+          "luk_bonus": 0
+        },
+        "hunter": 0,
+        "hp": 230,
+        "emblem": "",
+        "teamname": "",
+        "isduring": 0,
+        "isfriend": 0,
+        "bodymaxlvl": 6,
+        "unit": "A05_ST_V01",
+        "pntid": "MET_ZMB_TGT_00"
+      },
+      {
+        "zid": "1f2e019d-f67c-41a4-a56b-4d87e56d088d",
+        "did": -1,
+        "uid": -1,
+        "clazz": 0,
+        "name": "",
+        "cname": "",
+        "body": {
+          "id": "BODY_MALE_006",
+          "gender": "GENDER_MALE",
+          "baid": "ASSET_MALE_BODY_006",
+          "haid": "",
+          "colr": 1,
+          "colg": 1,
+          "colb": 1,
+          "voicep": 6,
+          "voiceb": 3,
+          "provoke": 16
+        },
+        "gasmask": "",
+        "attp": "ZMBATTP_PLAYER",
+        "eqtp": "ZMBEQTP_NORMAL",
+        "lvl": 4,
+        "type": "BAL",
+        "grade": 1,
+        "limit_break": 0,
+        "atkup": 0,
+        "defup": 0,
+        "exp": 17,
+        "abp": 0,
+        "prio": 8,
+        "zako": 0,
+        "path": "",
+        "state": 1,
+        "vip": 0,
+        "pspts": [
+          {
+            "eptid": "59c662ab-0dce-4889-a004-518683424afd",
+            "gettime": 0,
+            "ptid": "PT_ARM_WP006_001",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 1218,
+            "lvl": 1,
+            "zid": "1f2e019d-f67c-41a4-a56b-4d87e56d088d"
+          },
+          {
+            "eptid": "61d57e1a-8994-41c2-8c89-ca37b38b1930",
+            "gettime": 0,
+            "ptid": "PT_DIY_HEAD_003",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 340,
+            "lvl": 1,
+            "zid": "1f2e019d-f67c-41a4-a56b-4d87e56d088d"
+          },
+          {
+            "eptid": "6c2958c3-5083-4aa0-8fba-1630621505d5",
+            "gettime": 0,
+            "ptid": "PT_DIY_BTM_019",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 611,
+            "lvl": 1,
+            "zid": "1f2e019d-f67c-41a4-a56b-4d87e56d088d"
+          }
+        ],
+        "eqpts": [
+          {
+            "eptid": "59c662ab-0dce-4889-a004-518683424afd",
+            "site": "EQSITE_ARMR"
+          },
+          {
+            "eptid": "61d57e1a-8994-41c2-8c89-ca37b38b1930",
+            "site": "EQSITE_HEAD"
+          },
+          {
+            "eptid": "6c2958c3-5083-4aa0-8fba-1630621505d5",
+            "site": "EQSITE_LEGS"
+          }
+        ],
+        "psskls": [],
+        "mstlvl": [],
+        "eqskls": [],
+        "rwd": {
+          "money": 92,
+          "spirit": 0,
+          "pts": [
+            {
+              "eptid": "59c662ab-0dce-4889-a004-518683424afd"
+            }
+          ],
+          "msrs": [],
+          "items": [],
+          "tbtp": ""
+        },
+        "stat": {
+          "elms": []
+        },
+        "bodylvl": {
+          "lvl": 4,
+          "hp": 2,
+          "str": 2,
+          "dex": 2,
+          "vit": 1,
+          "stm": 1,
+          "luk": 1,
+          "skill": 0,
+          "bag": 0
+        },
+        "bodybonus": {
+          "hp_bonus": 0,
+          "str_bonus": 0,
+          "dex_bonus": 0,
+          "vit_bonus": 0,
+          "stm_bonus": 0,
+          "luk_bonus": 0
+        },
+        "hunter": 0,
+        "hp": 230,
+        "emblem": "",
+        "teamname": "",
+        "isduring": 0,
+        "isfriend": 0,
+        "bodymaxlvl": 6,
+        "unit": "A18_ST_V01",
+        "pntid": "MET_ZMB_TGT_02"
+      }
+    ],
+    "tbms": [
+      {
+        "unit": "A22_BR",
+        "pntid": "MET_TB_TGT_00",
+        "type": "TBTP_SMALL",
+        "apid": "TBAP_FACE_DOWN",
+        "prio": 3,
+        "money": 619,
+        "genid": ""
+      },
+      {
+        "unit": "GOAL3",
+        "pntid": "MET_TB_TGT_00",
+        "type": "TBTP_SMALL",
+        "apid": "TBAP_FACE_DOWN",
+        "prio": 1,
+        "money": 600,
+        "genid": ""
+      }
+    ],
+    "tbps": [
+      {
+        "unit": "A18_ST_V01",
+        "pntid": "MET_TB_TGT_00",
+        "type": "TBTP_SMALL",
+        "apid": "TBAP_FACE_DOWN",
+        "prio": 7,
+        "eptid": "92cad470-2447-4535-be70-81b0e25ad73e",
+        "rest": 89,
+        "spare": 0,
+        "grade": 0,
+        "dur": 448,
+        "pt": {
+          "eptid": "92cad470-2447-4535-be70-81b0e25ad73e",
+          "gettime": 0,
+          "ptid": "PT_ARM_WP037_001",
+          "rest": 89,
+          "spare": 0,
+          "grade": 0,
+          "dur": 448,
+          "lvl": 1
+        },
+        "genid": ""
+      },
+      {
+        "unit": "A20_CV_V01",
+        "pntid": "MET_TB_TGT_00",
+        "type": "TBTP_SMALL",
+        "apid": "TBAP_FACE_DOWN",
+        "prio": 6,
+        "eptid": "fda25725-3a40-4ee2-8f22-b4bc82743d7b",
+        "rest": 0,
+        "spare": 0,
+        "grade": 0,
+        "dur": 476,
+        "pt": {
+          "eptid": "fda25725-3a40-4ee2-8f22-b4bc82743d7b",
+          "gettime": 0,
+          "ptid": "PT_ARM_WP006_001",
+          "rest": 0,
+          "spare": 0,
+          "grade": 0,
+          "dur": 476,
+          "lvl": 1
+        },
+        "genid": ""
+      },
+      {
+        "unit": "A20_CV_V01",
+        "pntid": "MET_TB_TGT_01",
+        "type": "TBTP_SMALL",
+        "apid": "TBAP_FACE_DOWN",
+        "prio": 4,
+        "eptid": "4017668f-3db4-405f-9d89-7b286f88525e",
+        "rest": 0,
+        "spare": 0,
+        "grade": 0,
+        "dur": 546,
+        "pt": {
+          "eptid": "4017668f-3db4-405f-9d89-7b286f88525e",
+          "gettime": 0,
+          "ptid": "PT_ARM_WP019_001",
+          "rest": 0,
+          "spare": 0,
+          "grade": 0,
+          "dur": 546,
+          "lvl": 1
+        },
+        "genid": ""
+      }
+    ],
+    "tbis": [
+      {
+        "unit": "A05_ST_V01",
+        "pntid": "MET_TB_TGT_00",
+        "type": "TBTP_SMALL",
+        "apid": "TBAP_FACE_DOWN",
+        "prio": 5,
+        "eitemid": "fc0acd83-4193-4447-b706-05cd05418b97",
+        "itemId": "ITMP_DIY_HEAD_009U",
+        "genid": ""
+      },
+      {
+        "unit": "A08_DE",
+        "pntid": "MET_TB_TGT_01",
+        "type": "TBTP_LARGE",
+        "apid": "TBAP_FACE_DOWN",
+        "prio": 2,
+        "eitemid": "d29b9fa5-cb5c-42a2-9630-aa5f822af5f3",
+        "itemId": "ITMT_STONE_SPO_1",
+        "genid": ""
+      }
+    ],
+    "shps": [],
+    "mbss": [
+      {
+        "mbid": "7dd2d0a9-b11b-4b20-b03b-3c1544c7e05a",
+        "type": "MBOSS1",
+        "lvl": 1,
+        "attp": "MBSATTP_NORMAL",
+        "path": "",
+        "zmbs": [
+          {
+            "zid": "06bb105b-f52c-48f6-acf9-7b68c75db230",
+            "did": -1,
+            "uid": -1,
+            "clazz": 0,
+            "name": "",
+            "cname": "",
+            "body": {
+              "id": "BODY_MALE_001",
+              "gender": "GENDER_MALE",
+              "baid": "ASSET_MALE_BODY_001",
+              "haid": "",
+              "colr": 1,
+              "colg": 1,
+              "colb": 1,
+              "voicep": 1,
+              "voiceb": 1,
+              "provoke": 1
+            },
+            "gasmask": "",
+            "attp": "",
+            "eqtp": "",
+            "lvl": 7,
+            "type": "BAL",
+            "grade": 1,
+            "limit_break": 0,
+            "atkup": 0,
+            "defup": 0,
+            "exp": 20,
+            "abp": 0,
+            "prio": 0,
+            "zako": 0,
+            "path": "",
+            "state": 1,
+            "vip": 0,
+            "pspts": [
+              {
+                "eptid": "45895b17-064e-4b76-a9d0-40a32e309dab",
+                "gettime": 0,
+                "ptid": "PT_ARM_WP011_001",
+                "rest": 0,
+                "spare": 0,
+                "grade": 0,
+                "dur": 1022,
+                "lvl": 1,
+                "zid": "06bb105b-f52c-48f6-acf9-7b68c75db230"
+              },
+              {
+                "eptid": "9a6cac72-2df6-4fab-b101-190f8e61757e",
+                "gettime": 0,
+                "ptid": "PT_DIY_HEAD_011",
+                "rest": 0,
+                "spare": 0,
+                "grade": 0,
+                "dur": 465,
+                "lvl": 1,
+                "zid": "06bb105b-f52c-48f6-acf9-7b68c75db230"
+              },
+              {
+                "eptid": "76daa0eb-72e8-47fa-b858-542943996e08",
+                "gettime": 0,
+                "ptid": "PT_DIY_TOPS_019",
+                "rest": 0,
+                "spare": 0,
+                "grade": 0,
+                "dur": 665,
+                "lvl": 1,
+                "zid": "06bb105b-f52c-48f6-acf9-7b68c75db230"
+              }
+            ],
+            "eqpts": [
+              {
+                "eptid": "45895b17-064e-4b76-a9d0-40a32e309dab",
+                "site": "EQSITE_ARMR"
+              },
+              {
+                "eptid": "9a6cac72-2df6-4fab-b101-190f8e61757e",
+                "site": "EQSITE_HEAD"
+              },
+              {
+                "eptid": "76daa0eb-72e8-47fa-b858-542943996e08",
+                "site": "EQSITE_BODY"
+              }
+            ],
+            "psskls": [],
+            "mstlvl": [],
+            "eqskls": [],
+            "rwd": {
+              "money": 97,
+              "spirit": 0,
+              "pts": [
+                {
+                  "eptid": "45895b17-064e-4b76-a9d0-40a32e309dab"
+                }
+              ],
+              "msrs": [],
+              "items": [],
+              "tbtp": ""
+            },
+            "stat": {
+              "elms": []
+            },
+            "bodylvl": {
+              "lvl": 7,
+              "hp": 2,
+              "str": 2,
+              "dex": 2,
+              "vit": 2,
+              "stm": 2,
+              "luk": 2,
+              "skill": 0,
+              "bag": 0
+            },
+            "bodybonus": {
+              "hp_bonus": 0,
+              "str_bonus": 0,
+              "dex_bonus": 0,
+              "vit_bonus": 0,
+              "stm_bonus": 0,
+              "luk_bonus": 0
+            },
+            "hunter": 0,
+            "hp": 230,
+            "emblem": "",
+            "teamname": "",
+            "isduring": 0,
+            "isfriend": 0,
+            "bodymaxlvl": 6,
+            "unit": "",
+            "pntid": ""
+          },
+          {
+            "zid": "e0c9d506-a333-4698-95e7-24cdaac0ee69",
+            "did": -1,
+            "uid": -1,
+            "clazz": 0,
+            "name": "",
+            "cname": "",
+            "body": {
+              "id": "BODY_FEMALE_007",
+              "gender": "GENDER_FEMALE",
+              "baid": "ASSET_FEMALE_BODY_007",
+              "haid": "ASSET_FEMALE_HAIR_007",
+              "colr": 1,
+              "colg": 1,
+              "colb": 1,
+              "voicep": 7,
+              "voiceb": 8,
+              "provoke": 19
+            },
+            "gasmask": "",
+            "attp": "",
+            "eqtp": "",
+            "lvl": 3,
+            "type": "BAL",
+            "grade": 1,
+            "limit_break": 0,
+            "atkup": 0,
+            "defup": 0,
+            "exp": 16,
+            "abp": 0,
+            "prio": 0,
+            "zako": 0,
+            "path": "",
+            "state": 1,
+            "vip": 0,
+            "pspts": [
+              {
+                "eptid": "1bbf8b5b-5eb7-4270-b5e4-d58b91ac9cbf",
+                "gettime": 0,
+                "ptid": "PT_ARM_WP011_001",
+                "rest": 0,
+                "spare": 0,
+                "grade": 0,
+                "dur": 1218,
+                "lvl": 1,
+                "zid": "e0c9d506-a333-4698-95e7-24cdaac0ee69"
+              },
+              {
+                "eptid": "5a422c3e-6014-4d58-b7c5-6a7d394d9cd2",
+                "gettime": 0,
+                "ptid": "PT_DIY_HEAD_001",
+                "rest": 0,
+                "spare": 0,
+                "grade": 0,
+                "dur": 420,
+                "lvl": 1,
+                "zid": "e0c9d506-a333-4698-95e7-24cdaac0ee69"
+              },
+              {
+                "eptid": "5d256c1b-7d06-4100-8071-f5e19ebfd157",
+                "gettime": 0,
+                "ptid": "PT_DIY_TOPS_017",
+                "rest": 0,
+                "spare": 0,
+                "grade": 0,
+                "dur": 393,
+                "lvl": 1,
+                "zid": "e0c9d506-a333-4698-95e7-24cdaac0ee69"
+              }
+            ],
+            "eqpts": [
+              {
+                "eptid": "1bbf8b5b-5eb7-4270-b5e4-d58b91ac9cbf",
+                "site": "EQSITE_ARML"
+              },
+              {
+                "eptid": "5a422c3e-6014-4d58-b7c5-6a7d394d9cd2",
+                "site": "EQSITE_HEAD"
+              },
+              {
+                "eptid": "5d256c1b-7d06-4100-8071-f5e19ebfd157",
+                "site": "EQSITE_BODY"
+              }
+            ],
+            "psskls": [],
+            "mstlvl": [],
+            "eqskls": [],
+            "rwd": {
+              "money": 76,
+              "spirit": 0,
+              "pts": [
+                {
+                  "eptid": "1bbf8b5b-5eb7-4270-b5e4-d58b91ac9cbf"
+                }
+              ],
+              "msrs": [],
+              "items": [],
+              "tbtp": ""
+            },
+            "stat": {
+              "elms": []
+            },
+            "bodylvl": {
+              "lvl": 3,
+              "hp": 2,
+              "str": 2,
+              "dex": 1,
+              "vit": 1,
+              "stm": 1,
+              "luk": 1,
+              "skill": 0,
+              "bag": 0
+            },
+            "bodybonus": {
+              "hp_bonus": 0,
+              "str_bonus": 0,
+              "dex_bonus": 0,
+              "vit_bonus": 0,
+              "stm_bonus": 0,
+              "luk_bonus": 0
+            },
+            "hunter": 0,
+            "hp": 230,
+            "emblem": "",
+            "teamname": "",
+            "isduring": 0,
+            "isfriend": 0,
+            "bodymaxlvl": 6,
+            "unit": "",
+            "pntid": ""
+          },
+          {
+            "zid": "68e3eff8-178f-43f0-a9c6-a193f5e69147",
+            "did": -1,
+            "uid": -1,
+            "clazz": 0,
+            "name": "",
+            "cname": "",
+            "body": {
+              "id": "BODY_MALE_008",
+              "gender": "GENDER_MALE",
+              "baid": "ASSET_MALE_BODY_008",
+              "haid": "ASSET_MALE_HAIR_008",
+              "colr": 1,
+              "colg": 1,
+              "colb": 1,
+              "voicep": 8,
+              "voiceb": 4,
+              "provoke": 22
+            },
+            "gasmask": "",
+            "attp": "",
+            "eqtp": "",
+            "lvl": 5,
+            "type": "BAL",
+            "grade": 1,
+            "limit_break": 0,
+            "atkup": 0,
+            "defup": 0,
+            "exp": 18,
+            "abp": 0,
+            "prio": 0,
+            "zako": 0,
+            "path": "",
+            "state": 1,
+            "vip": 0,
+            "pspts": [
+              {
+                "eptid": "ed88447b-ba6e-4a4f-bb92-aa09addb2a41",
+                "gettime": 0,
+                "ptid": "PT_ARM_WP037_001",
+                "rest": 280,
+                "spare": 0,
+                "grade": 0,
+                "dur": 1372,
+                "lvl": 1,
+                "zid": "68e3eff8-178f-43f0-a9c6-a193f5e69147"
+              },
+              {
+                "eptid": "f3a9e592-a35f-4ad7-bc96-68fe7274acea",
+                "gettime": 0,
+                "ptid": "PT_DIY_HEAD_011",
+                "rest": 0,
+                "spare": 0,
+                "grade": 0,
+                "dur": 370,
+                "lvl": 1,
+                "zid": "68e3eff8-178f-43f0-a9c6-a193f5e69147"
+              },
+              {
+                "eptid": "d7224af8-efb2-43a6-9202-88a1241a9388",
+                "gettime": 0,
+                "ptid": "PT_DIY_TOPS_003",
+                "rest": 0,
+                "spare": 0,
+                "grade": 0,
+                "dur": 866,
+                "lvl": 1,
+                "zid": "68e3eff8-178f-43f0-a9c6-a193f5e69147"
+              }
+            ],
+            "eqpts": [
+              {
+                "eptid": "ed88447b-ba6e-4a4f-bb92-aa09addb2a41",
+                "site": "EQSITE_ARML"
+              },
+              {
+                "eptid": "f3a9e592-a35f-4ad7-bc96-68fe7274acea",
+                "site": "EQSITE_HEAD"
+              },
+              {
+                "eptid": "d7224af8-efb2-43a6-9202-88a1241a9388",
+                "site": "EQSITE_BODY"
+              }
+            ],
+            "psskls": [],
+            "mstlvl": [],
+            "eqskls": [],
+            "rwd": {
+              "money": 0,
+              "spirit": 0,
+              "pts": [],
+              "msrs": [],
+              "items": [],
+              "tbtp": ""
+            },
+            "stat": {
+              "elms": []
+            },
+            "bodylvl": {
+              "lvl": 5,
+              "hp": 2,
+              "str": 2,
+              "dex": 2,
+              "vit": 2,
+              "stm": 1,
+              "luk": 1,
+              "skill": 0,
+              "bag": 0
+            },
+            "bodybonus": {
+              "hp_bonus": 0,
+              "str_bonus": 0,
+              "dex_bonus": 0,
+              "vit_bonus": 0,
+              "stm_bonus": 0,
+              "luk_bonus": 0
+            },
+            "hunter": 0,
+            "hp": 230,
+            "emblem": "",
+            "teamname": "",
+            "isduring": 0,
+            "isfriend": 0,
+            "bodymaxlvl": 6,
+            "unit": "",
+            "pntid": ""
+          },
+          {
+            "zid": "34f4415e-5ad4-447f-bd1f-8863123f0afb",
+            "did": -1,
+            "uid": -1,
+            "clazz": 0,
+            "name": "",
+            "cname": "",
+            "body": {
+              "id": "BODY_MALE_002",
+              "gender": "GENDER_MALE",
+              "baid": "ASSET_MALE_BODY_002",
+              "haid": "",
+              "colr": 1,
+              "colg": 1,
+              "colb": 1,
+              "voicep": 2,
+              "voiceb": 1,
+              "provoke": 4
+            },
+            "gasmask": "",
+            "attp": "",
+            "eqtp": "",
+            "lvl": 4,
+            "type": "BAL",
+            "grade": 1,
+            "limit_break": 0,
+            "atkup": 0,
+            "defup": 0,
+            "exp": 17,
+            "abp": 0,
+            "prio": 0,
+            "zako": 0,
+            "path": "",
+            "state": 1,
+            "vip": 0,
+            "pspts": [
+              {
+                "eptid": "5dec6567-27cf-477b-87df-2eb56c0be9ba",
+                "gettime": 0,
+                "ptid": "PT_ARM_WP044_001",
+                "rest": 15,
+                "spare": 45,
+                "grade": 0,
+                "dur": 797,
+                "lvl": 1,
+                "zid": "34f4415e-5ad4-447f-bd1f-8863123f0afb"
+              },
+              {
+                "eptid": "dd7d9056-a11c-4086-91e9-321794090729",
+                "gettime": 0,
+                "ptid": "PT_DIY_HEAD_019",
+                "rest": 0,
+                "spare": 0,
+                "grade": 0,
+                "dur": 430,
+                "lvl": 1,
+                "zid": "34f4415e-5ad4-447f-bd1f-8863123f0afb"
+              },
+              {
+                "eptid": "9625e0bb-398c-48c9-b28f-d5b3daba8a9d",
+                "gettime": 0,
+                "ptid": "PT_DIY_BTM_009",
+                "rest": 0,
+                "spare": 0,
+                "grade": 0,
+                "dur": 577,
+                "lvl": 1,
+                "zid": "34f4415e-5ad4-447f-bd1f-8863123f0afb"
+              }
+            ],
+            "eqpts": [
+              {
+                "eptid": "5dec6567-27cf-477b-87df-2eb56c0be9ba",
+                "site": "EQSITE_ARMR"
+              },
+              {
+                "eptid": "dd7d9056-a11c-4086-91e9-321794090729",
+                "site": "EQSITE_HEAD"
+              },
+              {
+                "eptid": "9625e0bb-398c-48c9-b28f-d5b3daba8a9d",
+                "site": "EQSITE_LEGS"
+              }
+            ],
+            "psskls": [],
+            "mstlvl": [],
+            "eqskls": [],
+            "rwd": {
+              "money": 0,
+              "spirit": 0,
+              "pts": [],
+              "msrs": [],
+              "items": [],
+              "tbtp": ""
+            },
+            "stat": {
+              "elms": []
+            },
+            "bodylvl": {
+              "lvl": 4,
+              "hp": 2,
+              "str": 2,
+              "dex": 2,
+              "vit": 1,
+              "stm": 1,
+              "luk": 1,
+              "skill": 0,
+              "bag": 0
+            },
+            "bodybonus": {
+              "hp_bonus": 0,
+              "str_bonus": 0,
+              "dex_bonus": 0,
+              "vit_bonus": 0,
+              "stm_bonus": 0,
+              "luk_bonus": 0
+            },
+            "hunter": 0,
+            "hp": 230,
+            "emblem": "",
+            "teamname": "",
+            "isduring": 0,
+            "isfriend": 0,
+            "bodymaxlvl": 6,
+            "unit": "",
+            "pntid": ""
+          }
+        ],
+        "rwd": {
+          "pts": [],
+          "items": [
+            {
+              "eitemid": "95815f24-7a9a-45de-b0ba-552005b26d9d",
+              "itemId": "ITMT_STONE_DIY_1",
+              "gettime": 0
+            }
+          ],
+          "money": 0,
+          "spirit": 0
+        },
+        "dice": 0,
+        "unit": "A21_ST_V01",
+        "pntid": "MET_MBS_TGT_00"
+      }
+    ],
+    "zks": [
+      {
+        "zkid": "7f15fcfb-9ac0-4d46-a975-58969b683d90",
+        "lvl": 1,
+        "type": "ZAKO_SCRATCH",
+        "path": "",
+        "pspts": [],
+        "rwd": {
+          "pts": [],
+          "money": 163,
+          "spirit": 0,
+          "msrs": [],
+          "items": []
+        },
+        "trbox": [],
+        "unit": "A20_CV_V01",
+        "pntid": "MET_ZAKO_TGT_01",
+        "genid": "ZKGEN_20"
+      },
+      {
+        "zkid": "d434956c-ca49-4b30-93ba-3469d369ada7",
+        "lvl": 1,
+        "type": "ZAKO_SCRATCH",
+        "path": "",
+        "pspts": [],
+        "rwd": {
+          "pts": [],
+          "money": 172,
+          "spirit": 0,
+          "msrs": [],
+          "items": []
+        },
+        "trbox": [],
+        "unit": "A05_ST_V01",
+        "pntid": "MET_ZAKO_TGT_01",
+        "genid": "ZKGEN_20"
+      },
+      {
+        "zkid": "76f3379d-f18c-40c2-953d-fe46fb136563",
+        "lvl": 1,
+        "type": "ZAKO_SCRATCH",
+        "path": "",
+        "pspts": [],
+        "rwd": {
+          "pts": [],
+          "money": 177,
+          "spirit": 0,
+          "msrs": [],
+          "items": []
+        },
+        "trbox": [],
+        "unit": "A05_ST_V01",
+        "pntid": "MET_ZAKO_TGT_02",
+        "genid": "ZKGEN_20"
+      },
+      {
+        "zkid": "52b7b359-799d-4b7b-9cc8-2d8477b7af25",
+        "lvl": 1,
+        "type": "ZAKO_HOVERING",
+        "path": "",
+        "pspts": [],
+        "rwd": {
+          "pts": [],
+          "money": 205,
+          "spirit": 0,
+          "msrs": [],
+          "items": []
+        },
+        "trbox": [],
+        "unit": "A20_CV_V01",
+        "pntid": "MET_ZAKO_TGT_00",
+        "genid": ""
+      },
+      {
+        "zkid": "a63ede59-a13f-45cc-ba5c-0e9899d476df",
+        "lvl": 1,
+        "type": "ZAKO_HOVERING",
+        "path": "",
+        "pspts": [],
+        "rwd": {
+          "pts": [],
+          "money": 231,
+          "spirit": 0,
+          "msrs": [],
+          "items": []
+        },
+        "trbox": [],
+        "unit": "A03_CV_V01",
+        "pntid": "MET_ZAKO_TGT_00",
+        "genid": ""
+      }
+    ],
+    "ffms": [],
+    "msrs": [
+      {
+        "unit": "GOAL3",
+        "pntid": "MET_MSR_TGT_01",
+        "msr": {
+          "emsrid": "df6dc691-d068-4bb3-967f-031c82ff9f2f",
+          "msrid": "MSR_200",
+          "gettime": 0,
+          "eefcid": "",
+          "tefcid": "",
+          "state": 0
+        },
+        "genid": "MSRGEN_MET_01"
+      },
+      {
+        "unit": "START_V01",
+        "pntid": "MET_MSR_TGT_02",
+        "msr": {
+          "emsrid": "bd147b72-5cdc-49c2-ac4a-a121e8d49f7f",
+          "msrid": "MSR_200",
+          "gettime": 0,
+          "eefcid": "",
+          "tefcid": "",
+          "state": 0
+        },
+        "genid": "MSRGEN_MET_01"
+      },
+      {
+        "unit": "A22_BR",
+        "pntid": "MET_MSR_TGT_00",
+        "msr": {
+          "emsrid": "19cdd1f9-746d-4db5-9ba3-e26aec6bf1c7",
+          "msrid": "MSR_007",
+          "gettime": 0,
+          "eefcid": "",
+          "tefcid": "",
+          "state": 0
+        },
+        "genid": "MSRGEN_MET_01"
+      },
+      {
+        "unit": "A21_ST_V01",
+        "pntid": "MET_MSR_TGT_00",
+        "msr": {
+          "emsrid": "70643e5d-0716-49b4-9c4f-44c04597bf94",
+          "msrid": "MSR_001",
+          "gettime": 0,
+          "eefcid": "",
+          "tefcid": "",
+          "state": 0
+        },
+        "genid": "MSRGEN_MET_01"
+      }
+    ],
+    "items": [
+      {
+        "unit": "A18_ST_V01",
+        "pntid": "MET_ITM_TGT_01",
+        "item": {
+          "eitemid": "259524cb-d61e-4281-8dc5-8c0456d7c6fb",
+          "itemId": "ITMT_FIBER_1",
+          "gettime": 0
+        },
+        "genid": "ITEM_GEN_31"
+      },
+      {
+        "unit": "A08_DE",
+        "pntid": "MET_ITM_TGT_02",
+        "item": {
+          "eitemid": "3c4e237e-e423-4504-80d5-aa9a5aa3079e",
+          "itemId": "ITMT_FIBER_1",
+          "gettime": 0
+        },
+        "genid": "ITEM_GEN_31"
+      },
+      {
+        "unit": "A03_CV_V01",
+        "pntid": "MET_ITM_TGT_03",
+        "item": {
+          "eitemid": "724423c2-b392-4cd0-9cda-5e2f5680399a",
+          "itemId": "ITMT_FIBER_3",
+          "gettime": 0
+        },
+        "genid": "ITEM_GEN_31"
+      },
+      {
+        "unit": "A05_ST_V01",
+        "pntid": "MET_ITM_TGT_00",
+        "item": {
+          "eitemid": "85acd9b4-6d40-4c3e-b3e6-59bfd170c20e",
+          "itemId": "ITMT_FIBER_1",
+          "gettime": 0
+        },
+        "genid": "ITEM_GEN_31"
+      },
+      {
+        "unit": "A21_ST_V01",
+        "pntid": "MET_ITM_TGT_01",
+        "item": {
+          "eitemid": "bf548282-6701-43fb-83c9-f7a9193222c8",
+          "itemId": "ITMT_FIBER_1",
+          "gettime": 0
+        },
+        "genid": "ITEM_GEN_31"
+      },
+      {
+        "unit": "A22_BR",
+        "pntid": "MET_ITM_TGT_00",
+        "item": {
+          "eitemid": "f72bf1d1-ecdb-484c-b9da-6c7c4834be03",
+          "itemId": "ITMT_FIBER_3",
+          "gettime": 0
+        },
+        "genid": "ITEM_GEN_31"
+      },
+      {
+        "unit": "A20_CV_V01",
+        "pntid": "MET_ITM_TGT_05",
+        "item": {
+          "eitemid": "fc9435fb-f59a-4b37-ba79-14ba3f07bab3",
+          "itemId": "ITMT_FIBER_1",
+          "gettime": 0
+        },
+        "genid": "ITEM_GEN_31"
+      }
+    ],
+    "bsts": [
+      {
+        "unit": "A18_ST_V01",
+        "pntid": "MET_BST_TGT_00",
+        "bst": {
+          "ebstid": "512d2582-39fa-4403-b7e2-22a6eef173db",
+          "bstid": "BST_FROG",
+          "gettime": 0,
+          "lvl": 1,
+          "state": 0,
+          "rwdmsr": {
+            "emsrid": "b112b0de-4366-410d-91cb-e6e099737d4e",
+            "msrid": "MSR_031",
+            "gettime": 0,
+            "eefcid": "",
+            "tefcid": "",
+            "state": 0
+          }
+        },
+        "genid": "BSTGEN_MET_1"
+      }
+    ],
+    "gates": [],
+    "dusts": [
+      {
+        "uid": "486445",
+        "flrid": "MET_FLR_03",
+        "areaid": "MET_AREA_031",
+        "unit": "START_V01",
+        "pntid": "MET_DST_TGT_00",
+        "type": "CHARGE",
+        "edustid": "START_V01-MET_DST_TGT_00"
+      }
+    ],
+    "soupshp": 0,
+    "stamp": [],
+    "magazine": [
+      {
+        "uid": "486445",
+        "unit": "GOAL3",
+        "pntid": "MET_MGZN_TGT_03",
+        "magazine_index": 2
+      }
+    ],
+    "cls": [],
+    "sbs": [],
+    "posters": [
+      {
+        "unit": "A21_ST",
+        "tpnt": "MET_PST_TGT_00",
+        "txtid": ""
+      },
+      {
+        "unit": "BOSS",
+        "tpnt": "MET_NEWS_TGT_00",
+        "txtid": ""
+      }
+    ],
+    "jklsdf": [
+      {
+        "type": "JACKAL_X",
+        "rwd": {
+          "pts": [],
+          "money": 1012,
+          "spirit": 0,
+          "msrs": [],
+          "items": []
+        },
+        "isKilled": 0,
+        "pspts": [],
+        "eqpts": []
+      },
+      {
+        "type": "JACKAL_XX",
+        "rwd": {
+          "pts": [],
+          "money": 0,
+          "spirit": 0,
+          "msrs": [],
+          "items": [
+            {
+              "eitemid": "b9d0101e-93c0-4e82-8695-33ce8d4e1893",
+              "itemId": "ITMT_STONE_JAC_1",
+              "gettime": 0
+            }
+          ]
+        },
+        "isKilled": 0,
+        "pspts": [],
+        "eqpts": []
+      },
+      {
+        "type": "JACKAL_XXX",
+        "rwd": {
+          "pts": [],
+          "money": 0,
+          "spirit": 0,
+          "msrs": [],
+          "items": [
+            {
+              "eitemid": "edabe312-abd4-44e7-b1b8-cdd5941d615d",
+              "itemId": "ITMT_STONE_JAC_2",
+              "gettime": 0
+            }
+          ]
+        },
+        "isKilled": 0,
+        "pspts": [],
+        "eqpts": []
+      },
+      {
+        "type": "JACKAL_XXXX",
+        "rwd": {
+          "pts": [],
+          "money": 0,
+          "spirit": 0,
+          "msrs": [],
+          "items": [
+            {
+              "eitemid": "a23f8585-7f58-42a2-8009-919a7591fc86",
+              "itemId": "ITMT_STONE_JAC_5",
+              "gettime": 0
+            }
+          ]
+        },
+        "isKilled": 0,
+        "pspts": [],
+        "eqpts": []
+      },
+      {
+        "type": "JACKAL_Y",
+        "rwd": {
+          "pts": [],
+          "money": 0,
+          "spirit": 0,
+          "msrs": [],
+          "items": [
+            {
+              "eitemid": "2adb9e52-fafa-4162-ba75-c2831c5f1b46",
+              "itemId": "ITMP_ARM_WP053_001U",
+              "gettime": 0
+            }
+          ]
+        },
+        "isKilled": 0,
+        "pspts": [],
+        "eqpts": []
+      },
+      {
+        "type": "JACKAL_YY",
+        "rwd": {
+          "pts": [],
+          "money": 0,
+          "spirit": 0,
+          "msrs": [],
+          "items": [
+            {
+              "eitemid": "204d937b-641f-43ef-b09c-02c1476a1b8a",
+              "itemId": "ITMT_STONE_JAC_1",
+              "gettime": 0
+            }
+          ]
+        },
+        "isKilled": 0,
+        "pspts": [],
+        "eqpts": []
+      },
+      {
+        "type": "JACKAL_YYY",
+        "rwd": {
+          "pts": [],
+          "money": 0,
+          "spirit": 0,
+          "msrs": [],
+          "items": [
+            {
+              "eitemid": "27029ec2-d2f3-4440-9685-d998ef659986",
+              "itemId": "ITMP_JAC_BTM_202U",
+              "gettime": 0
+            }
+          ]
+        },
+        "isKilled": 0,
+        "pspts": [],
+        "eqpts": []
+      },
+      {
+        "type": "JACKAL_YYYY",
+        "rwd": {
+          "pts": [],
+          "money": 0,
+          "spirit": 0,
+          "msrs": [],
+          "items": [
+            {
+              "eitemid": "b1f37f8e-faab-4946-90cf-537edb32b4bf",
+              "itemId": "ITMT_STONE_JAC_Y_2",
+              "gettime": 0
+            }
+          ]
+        },
+        "isKilled": 0,
+        "pspts": [],
+        "eqpts": []
+      },
+      {
+        "type": "JACKAL_Z",
+        "rwd": {
+          "pts": [
+            {
+              "eptid": "727af610-54a2-42de-824e-07a7dc3f1634",
+              "gettime": 0,
+              "ptid": "PT_ARM_WP052_001",
+              "rest": 0,
+              "spare": 0,
+              "grade": 0,
+              "dur": 1232,
+              "lvl": 1
+            }
+          ],
+          "money": 0,
+          "spirit": 0,
+          "msrs": [],
+          "items": []
+        },
+        "isKilled": 0,
+        "pspts": [
+          {
+            "eptid": "727af610-54a2-42de-824e-07a7dc3f1634",
+            "gettime": 0,
+            "ptid": "PT_ARM_WP052_001",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 1232,
+            "lvl": 1
+          }
+        ],
+        "eqpts": [
+          {
+            "eptid": "727af610-54a2-42de-824e-07a7dc3f1634",
+            "site": "EQSITE_ARMR"
+          }
+        ]
+      },
+      {
+        "type": "JACKAL_ZZ",
+        "rwd": {
+          "pts": [],
+          "money": 0,
+          "spirit": 0,
+          "msrs": [],
+          "items": [
+            {
+              "eitemid": "b2fe9dc5-d5d4-4e6d-93a6-58e70091f0b8",
+              "itemId": "ITMT_STONE_JAC_1",
+              "gettime": 0
+            }
+          ]
+        },
+        "isKilled": 0,
+        "pspts": [],
+        "eqpts": []
+      },
+      {
+        "type": "JACKAL_ZZZ",
+        "rwd": {
+          "pts": [],
+          "money": 0,
+          "spirit": 0,
+          "msrs": [],
+          "items": [
+            {
+              "eitemid": "5979fcd8-9e3d-4749-8f50-07b61f37dcda",
+              "itemId": "ITMT_STONE_JAC_4",
+              "gettime": 0
+            }
+          ]
+        },
+        "isKilled": 0,
+        "pspts": [],
+        "eqpts": []
+      },
+      {
+        "type": "JACKAL_ZZZZ",
+        "rwd": {
+          "pts": [],
+          "money": 0,
+          "spirit": 0,
+          "msrs": [],
+          "items": [
+            {
+              "eitemid": "71d89b38-a58c-44e8-ac80-34ff50ebbae8",
+              "itemId": "ITMT_STONE_JAC_5",
+              "gettime": 0
+            }
+          ]
+        },
+        "isKilled": 0,
+        "pspts": [],
+        "eqpts": []
+      }
+    ],
+    "bos": [],
+    "vms": [],
+    "is_closed_area": -1
+  },
+  "av": 3,
+  "dv": 149,
+  "e": "0",
+  "st": 0,
+  "emsg": "",
+  "eparam": "",
+  "env": "prds",
+  "accountId": "S1310702121",
+  "json": 1,
+  "ctime": {
+    "sec": 1585869449,
+    "msec": 809,
+    "svr": 1
+  }
+}

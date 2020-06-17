@@ -2,7 +2,7 @@ var save = require('../save.js');
 
 module.exports = (req, resp) => {
 	var reqData = "";
-	req.on('data', function(chunk){ reqData += chunk})
+	req.on('data', function(chunk){ reqData += chunk});
 	req.on('end', function(){
 		save.setSoul(JSON.parse(reqData)['param']['soul']);
 		resp.send({

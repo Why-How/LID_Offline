@@ -2,13 +2,14 @@ var save = require('../save.js');
 
 module.exports = (req, resp) => {
 	var reqData = "";
-	req.on('data', function(chunk){ reqData += chunk})
+	req.on('data', function(chunk){ reqData += chunk});
 	req.on('end', function() {
-		save.setSoul(JSON.parse(reqData)['param']['soul']);
+
+		save.setSoul(save.emptyWallet(JSON.parse(reqData)['param']['soul']));
 		var templinfo = require('../Data/tmpl/tutorial.json')['tmplinfo'];
 
 		if(save.getTutorialState() > 20) {
-			templinfo = require('../Data/tmpl/main.json')['tmplinfo'];
+			templinfo = save.getDailyTmpl();
 		}
 
 		resp.send({
@@ -70,4 +71,4 @@ module.exports = (req, resp) => {
 			"ctime": save.getCtime()
 		});
 });
-}
+};

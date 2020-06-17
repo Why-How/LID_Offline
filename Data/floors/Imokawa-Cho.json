@@ -1,0 +1,3183 @@
+{
+  "flr": {
+    "stgid": "S_MET",
+    "stgpfx": "Metro",
+    "flrid": "MET_FLR_02",
+    "flrno": 2,
+    "areaid": "MET_AREA_020",
+    "unitid": "METRO_START_V01",
+    "refstgid": "S_MET",
+    "refstgpfx": "Metro",
+    "refareaid": "MET_AREA_020",
+    "escl": {
+      "ups": [],
+      "downs": []
+    },
+    "name": "AREA_NAME.TXT_MET_0001",
+    "sname": "2",
+    "dbg": 0,
+    "units": [
+      {
+        "unit": "START_V01",
+        "kis": "",
+        "pntlsts": [
+          {
+            "type": "TGTPNTTP_DUST",
+            "pnts": [
+              "MET_DST_TGT_00"
+            ]
+          },
+          {
+            "type": "TGTPNTTP_MSR",
+            "pnts": [
+              "MET_MSR_TGT_00",
+              "MET_MSR_TGT_01",
+              "MET_MSR_TGT_02",
+              "MET_MSR_TGT_03"
+            ]
+          }
+        ]
+      },
+      {
+        "unit": "A03_CV_V01",
+        "kis": "A03_CV_V01_KIS_E",
+        "pntlsts": [
+          {
+            "type": "TGTPNTTP_BST",
+            "pnts": [
+              "MET_BST_TGT_01",
+              "MET_BST_TGT_02"
+            ]
+          },
+          {
+            "type": "TGTPNTTP_ITEM",
+            "pnts": [
+              "MET_ITM_TGT_05",
+              "MET_ITM_TGT_06"
+            ]
+          },
+          {
+            "type": "TGTPNTTP_TRBOX",
+            "pnts": [
+              "MET_TB_TGT_01"
+            ]
+          }
+        ]
+      },
+      {
+        "unit": "A04_CV_V01",
+        "kis": "",
+        "pntlsts": [
+          {
+            "type": "TGTPNTTP_BO",
+            "pnts": [
+              "MET_BO_TGT_00",
+              "MET_BO_TGT_01",
+              "MET_BO_TGT_02"
+            ]
+          },
+          {
+            "type": "TGTPNTTP_BST",
+            "pnts": [
+              "MET_BST_TGT_00"
+            ]
+          },
+          {
+            "type": "TGTPNTTP_ITEM",
+            "pnts": [
+              "MET_ITM_TGT_00",
+              "MET_ITM_TGT_01",
+              "MET_ITM_TGT_02",
+              "MET_ITM_TGT_03",
+              "MET_ITM_TGT_04",
+              "MET_ITM_TGT_05"
+            ]
+          },
+          {
+            "type": "TGTPNTTP_MSR",
+            "pnts": [
+              "MET_MSR_TGT_00",
+              "MET_MSR_TGT_01"
+            ]
+          },
+          {
+            "type": "TGTPNTTP_STAMP",
+            "pnts": [
+              "MET_STMP_TGT_00"
+            ]
+          },
+          {
+            "type": "TGTPNTTP_TRBOX",
+            "pnts": [
+              "MET_TB_TGT_00"
+            ]
+          },
+          {
+            "type": "TGTPNTTP_ZAKO",
+            "pnts": [
+              "MET_ZAKO_TGT_00"
+            ]
+          },
+          {
+            "type": "TGTPNTTP_ZMB",
+            "pnts": [
+              "MET_ZMB_TGT_00",
+              "MET_ZMB_TGT_01",
+              "MET_ZMB_TGT_02"
+            ]
+          }
+        ]
+      },
+      {
+        "unit": "A18_ST_V01",
+        "kis": "A18_ST_V01_KIS_ETZ",
+        "pntlsts": [
+          {
+            "type": "TGTPNTTP_ZAKO",
+            "pnts": [
+              "MET_ZAKO_TGT_00",
+              "MET_ZAKO_TGT_01",
+              "MET_ZAKO_TGT_02",
+              "MET_ZAKO_TGT_03",
+              "MET_ZAKO_TGT_04"
+            ]
+          }
+        ]
+      },
+      {
+        "unit": "GOAL_V01",
+        "kis": "",
+        "pntlsts": []
+      }
+    ],
+    "rlg": "CQAAAAUAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAIAAAAAAAAADwAAAE0AZQB0AHIAbwBfAFMAdABhAHIAdABfAHYAMAAxAAEAAAADAAAAAAAAAP////8AAAAAAQAAAAAAAAAAAAAAAgAAAP////8AAAAAAAAAAAIAAAD/////AAAAAAAAAAACAAAA/////wAAAAAAAAAAAgAAAP////8AAAAAAAAAAAIAAAD/////AAAAAAAAAAAwCW82/H8AALthQwAAAAAAfAAAAAAAAAAkifgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAlvNvx/AAAAUYdFAEAcRQAAgMAQAAAADwAAAAAAAAAAAAAAEAAAAE0AZQB0AHIAbwBfAEEAMAAzAF8AQwBWAF8AdgAwADEAAQAAAAIAAAAAAAAA/////wIAAAD/////AAAAAAAAAAACAAAA/////wAAAAAAAAAAAgAAAP////8AAAAAAAAAAAAAAAAAAAAAAACAQAAAAAACAAAA/////wAAAAAAAAAAAAAAAAIAAAAAAIBAAAAAAA8AAAAQAAAAuA9vNvx/AAAQAAAAEAAAADCO+gAAAAAAMAdvNgMAAAC4D282/H8AAJAHbzb8fwAAzwpCAAAAAABgB282/H8AAARRB0YAAAAAAID3wxAAAAAOAAAAAAAAAAAAAAAQAAAATQBlAHQAcgBvAF8AQQAwADQAXwBDAFYAXwB2ADAAMQAEAAAAAgAAAAAAAAD/////AAAAAAMAAAAAAAAAAAAAAAIAAAD/////AAAAAAAAAAAAAAAAAQAAAACA90MAAAAAAgAAAP////8AAAAAAAAAAAIAAAD/////AAAAAAAAAAACAAAA/////wAAAAAAAAAADgAAABAAAAC4D282/H8AAA0AAAAPAAAAAAAAAAAAAAAwBW82AgAAABAAAAAAAAAAkAVvNvx/AACbCkIAAAAAAGAFbzb8fwAAiPlKRgBAHEUAAPjDEAAAAA0AAAAAAAAAAAAAABAAAABNAGUAdAByAG8AXwBBADEAOABfAFMAVABfAHYAMAAxAAEAAAAAAAAAAAAAAP////8AAAAABAAAAAAAgD8AAAAAAgAAAP////8AAAAAAAAAAAIAAAD/////AAAAAAAAAAAAAAAAAgAAAAAAgD8AAAAAAgAAAP////8AAAAAAAAAAAIAAAD/////AAAAAAAAAAANAAAAEAAAALgPbzb8fwAADgAAABAAAAAgkPoAAAAAADADbzYDAAAAuA9vNvx/AACQA282/H8AAM8KQgAAAAAAYANvNvx/AAAEUYdGAECcRQCA98MRAAAADAAAAAQAAAAAAAAADgAAAE0AZQB0AHIAbwBfAEcAbwBhAGwAXwB2ADAAMQABAAAAAwAAAAAAAAD/////AgAAAP////8AAAAAAAAAAAIAAAD/////AAAAAAAAAAACAAAA/////wAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAIAAAD/////AAAAAAAAAAACAAAA/////wAAAAAAAAAAIAFvNvx/AABMx0AAAAAAADgSbzb8fwAAMBJvNvx/AAAIk/oAAAAAABCS+gAAAAAAQAFvNvx/AAA+0UIAAAAAABCS+gAAAAAAAAAAAA==",
+    "gmcdmgscale": 100,
+    "zmbs": [
+      {
+        "zid": "1f4cf117-ac8b-4c16-b497-aef09ccd6f5b",
+        "did": "00bc47c9-2e96-49d2-8db5-35b89c94fceb",
+        "uid": 38084,
+        "clazz": 2,
+        "name": "MakoTako",
+        "cname": "",
+        "body": {
+          "id": "BODY_FEMALE_003",
+          "gender": "GENDER_FEMALE",
+          "baid": "ASSET_FEMALE_BODY_003",
+          "haid": "ASSET_FEMALE_HAIR_003",
+          "colr": 1,
+          "colg": 1,
+          "colb": 1,
+          "voicep": 3,
+          "voiceb": 6,
+          "provoke": 7
+        },
+        "gasmask": "",
+        "attp": "ZMBATTP_PLAYER",
+        "eqtp": "ZMBEQTP_NORMAL",
+        "lvl": 1,
+        "type": "COL",
+        "grade": 1,
+        "limit_break": 0,
+        "atkup": -70,
+        "defup": -80,
+        "exp": 16,
+        "abp": 0,
+        "prio": 1,
+        "zako": 0,
+        "path": "",
+        "state": 1,
+        "vip": 0,
+        "pspts": [
+          {
+            "eptid": "1eb381d9-9dee-4e00-b010-6cb8f7b3d743",
+            "gettime": 0,
+            "ptid": "PT_ARM_WP011_001",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 371,
+            "lvl": 1,
+            "zid": "1f4cf117-ac8b-4c16-b497-aef09ccd6f5b"
+          },
+          {
+            "eptid": "b6319849-de4c-43d7-b820-41893cf879c4",
+            "gettime": 0,
+            "ptid": "PT_SPO_HEAD_109",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 190,
+            "lvl": 1,
+            "zid": "1f4cf117-ac8b-4c16-b497-aef09ccd6f5b"
+          },
+          {
+            "eptid": "ca87b5a1-8198-446a-b86c-00445efff504",
+            "gettime": 0,
+            "ptid": "PT_GAS_HEAD_006",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 330,
+            "lvl": 1,
+            "zid": "1f4cf117-ac8b-4c16-b497-aef09ccd6f5b"
+          },
+          {
+            "eptid": "21d6a30c-4b83-4dbb-b83d-d632b5905e5b",
+            "gettime": 0,
+            "ptid": "PT_ARM_WP037_001",
+            "rest": 280,
+            "spare": 0,
+            "grade": 0,
+            "dur": 378,
+            "lvl": 1,
+            "zid": "1f4cf117-ac8b-4c16-b497-aef09ccd6f5b"
+          },
+          {
+            "eptid": "78889b66-437c-46e7-84fc-bf47bb4c32e3",
+            "gettime": 0,
+            "ptid": "PT_DIY_BTM_001",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 176,
+            "lvl": 1,
+            "zid": "1f4cf117-ac8b-4c16-b497-aef09ccd6f5b"
+          },
+          {
+            "eptid": "bf57f552-baa9-4cbf-b362-41d917960f53",
+            "gettime": 0,
+            "ptid": "PT_ARM_WP017_001",
+            "rest": 6,
+            "spare": 36,
+            "grade": 0,
+            "dur": 1020,
+            "lvl": 1,
+            "zid": "1f4cf117-ac8b-4c16-b497-aef09ccd6f5b"
+          },
+          {
+            "eptid": "894247a0-cbba-43c3-81d6-c91dc34d4b22",
+            "gettime": 0,
+            "ptid": "PT_ARM_WP011_001",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 279,
+            "lvl": 1,
+            "zid": "1f4cf117-ac8b-4c16-b497-aef09ccd6f5b"
+          },
+          {
+            "eptid": "693fecc1-2091-4c66-988f-66bd1fb6477b",
+            "gettime": 0,
+            "ptid": "PT_ARM_WP044_001",
+            "rest": 15,
+            "spare": 45,
+            "grade": 0,
+            "dur": 360,
+            "lvl": 1,
+            "zid": "1f4cf117-ac8b-4c16-b497-aef09ccd6f5b"
+          }
+        ],
+        "eqpts": [
+          {
+            "eptid": "ca87b5a1-8198-446a-b86c-00445efff504",
+            "site": "EQSITE_HEAD"
+          },
+          {
+            "eptid": "78889b66-437c-46e7-84fc-bf47bb4c32e3",
+            "site": "EQSITE_LEGS"
+          }
+        ],
+        "psskls": [],
+        "mstlvl": [
+          {
+            "ptarmtp": "PTARMTP_00",
+            "lvl": 15
+          }
+        ],
+        "eqskls": [],
+        "rwd": {
+          "money": 1000,
+          "spirit": 5,
+          "pts": [],
+          "msrs": [],
+          "items": [
+            {
+              "eitemid": "ffb4e0c7-8597-480b-9868-be532c388434",
+              "itemId": "ITMT_STONE_SPO_1",
+              "gettime": 0
+            }
+          ],
+          "tbtp": "TBTP_LARGE"
+        },
+        "stat": {
+          "elms": []
+        },
+        "bodylvl": {
+          "lvl": 1,
+          "hp": 1,
+          "str": 1,
+          "dex": 1,
+          "vit": 1,
+          "stm": 1,
+          "luk": 1,
+          "skill": 0,
+          "bag": 0
+        },
+        "bodybonus": {
+          "hp_bonus": 1,
+          "str_bonus": 0,
+          "dex_bonus": 0,
+          "vit_bonus": 0,
+          "stm_bonus": 0,
+          "luk_bonus": 0
+        },
+        "hunter": 0,
+        "hp": 200,
+        "emblem": "TM_EM_0051",
+        "teamname": "California",
+        "isduring": 0,
+        "isfriend": 0,
+        "bodymaxlvl": 6,
+        "unit": "A04_CV_V01",
+        "pntid": "MET_ZMB_TGT_00"
+      },
+      {
+        "zid": "11e1f85f-f5e6-4af2-9cee-feb45845cab4",
+        "did": -1,
+        "uid": -1,
+        "clazz": 0,
+        "name": "",
+        "cname": "",
+        "body": {
+          "id": "BODY_MALE_004",
+          "gender": "GENDER_MALE",
+          "baid": "ASSET_MALE_BODY_004",
+          "haid": "ASSET_MALE_HAIR_002",
+          "colr": 1,
+          "colg": 1,
+          "colb": 1,
+          "voicep": 4,
+          "voiceb": 2,
+          "provoke": 10
+        },
+        "gasmask": "",
+        "attp": "ZMBATTP_PLAYER",
+        "eqtp": "ZMBEQTP_NORMAL",
+        "lvl": 3,
+        "type": "BAL",
+        "grade": 1,
+        "limit_break": 0,
+        "atkup": 0,
+        "defup": 0,
+        "exp": 11,
+        "abp": 0,
+        "prio": 2,
+        "zako": 0,
+        "path": "",
+        "state": 1,
+        "vip": 0,
+        "pspts": [
+          {
+            "eptid": "2a83356b-728f-4840-ac09-d3fa12728755",
+            "gettime": 0,
+            "ptid": "PT_ARM_WP011_001",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 1106,
+            "lvl": 1,
+            "zid": "11e1f85f-f5e6-4af2-9cee-feb45845cab4"
+          },
+          {
+            "eptid": "bd58d2c2-3866-4a60-a3d9-7a7732aba27f",
+            "gettime": 0,
+            "ptid": "PT_DIY_HEAD_009",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 450,
+            "lvl": 1,
+            "zid": "11e1f85f-f5e6-4af2-9cee-feb45845cab4"
+          },
+          {
+            "eptid": "a2a3add3-5306-4804-ad71-57481cd56226",
+            "gettime": 0,
+            "ptid": "PT_DIY_BTM_011",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 528,
+            "lvl": 1,
+            "zid": "11e1f85f-f5e6-4af2-9cee-feb45845cab4"
+          }
+        ],
+        "eqpts": [
+          {
+            "eptid": "2a83356b-728f-4840-ac09-d3fa12728755",
+            "site": "EQSITE_ARMR"
+          },
+          {
+            "eptid": "bd58d2c2-3866-4a60-a3d9-7a7732aba27f",
+            "site": "EQSITE_HEAD"
+          },
+          {
+            "eptid": "a2a3add3-5306-4804-ad71-57481cd56226",
+            "site": "EQSITE_LEGS"
+          }
+        ],
+        "psskls": [],
+        "mstlvl": [],
+        "eqskls": [],
+        "rwd": {
+          "money": 82,
+          "spirit": 0,
+          "pts": [
+            {
+              "eptid": "2a83356b-728f-4840-ac09-d3fa12728755"
+            }
+          ],
+          "msrs": [],
+          "items": [],
+          "tbtp": ""
+        },
+        "stat": {
+          "elms": []
+        },
+        "bodylvl": {
+          "lvl": 3,
+          "hp": 2,
+          "str": 2,
+          "dex": 1,
+          "vit": 1,
+          "stm": 1,
+          "luk": 1,
+          "skill": 0,
+          "bag": 0
+        },
+        "bodybonus": {
+          "hp_bonus": 0,
+          "str_bonus": 0,
+          "dex_bonus": 0,
+          "vit_bonus": 0,
+          "stm_bonus": 0,
+          "luk_bonus": 0
+        },
+        "hunter": 0,
+        "hp": 230,
+        "emblem": "",
+        "teamname": "",
+        "isduring": 0,
+        "isfriend": 0,
+        "bodymaxlvl": 6,
+        "unit": "A04_CV_V01",
+        "pntid": "MET_ZMB_TGT_02"
+      },
+      {
+        "zid": "8ad279c1-6eb6-4c13-a8c8-a310b4cb012f",
+        "did": -1,
+        "uid": -1,
+        "clazz": 0,
+        "name": "",
+        "cname": "",
+        "body": {
+          "id": "BODY_MALE_007",
+          "gender": "GENDER_MALE",
+          "baid": "ASSET_MALE_BODY_007",
+          "haid": "ASSET_MALE_HAIR_007",
+          "colr": 1,
+          "colg": 1,
+          "colb": 1,
+          "voicep": 7,
+          "voiceb": 4,
+          "provoke": 19
+        },
+        "gasmask": "",
+        "attp": "ZMBATTP_PLAYER",
+        "eqtp": "ZMBEQTP_NORMAL",
+        "lvl": 3,
+        "type": "BAL",
+        "grade": 1,
+        "limit_break": 0,
+        "atkup": 0,
+        "defup": 0,
+        "exp": 11,
+        "abp": 0,
+        "prio": 3,
+        "zako": 0,
+        "path": "",
+        "state": 1,
+        "vip": 0,
+        "pspts": [
+          {
+            "eptid": "8b5560d2-663a-46c5-8fb0-9e2f89570fdd",
+            "gettime": 0,
+            "ptid": "PT_ARM_WP011_001",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 1078,
+            "lvl": 1,
+            "zid": "8ad279c1-6eb6-4c13-a8c8-a310b4cb012f"
+          },
+          {
+            "eptid": "7f7c7965-9bb8-4c89-927c-b65c3490c344",
+            "gettime": 0,
+            "ptid": "PT_DIY_HEAD_019",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 380,
+            "lvl": 1,
+            "zid": "8ad279c1-6eb6-4c13-a8c8-a310b4cb012f"
+          },
+          {
+            "eptid": "7f4e77f1-167b-4158-9b29-25939f8e966a",
+            "gettime": 0,
+            "ptid": "PT_DIY_BTM_019",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 508,
+            "lvl": 1,
+            "zid": "8ad279c1-6eb6-4c13-a8c8-a310b4cb012f"
+          }
+        ],
+        "eqpts": [
+          {
+            "eptid": "8b5560d2-663a-46c5-8fb0-9e2f89570fdd",
+            "site": "EQSITE_ARML"
+          },
+          {
+            "eptid": "7f7c7965-9bb8-4c89-927c-b65c3490c344",
+            "site": "EQSITE_HEAD"
+          },
+          {
+            "eptid": "7f4e77f1-167b-4158-9b29-25939f8e966a",
+            "site": "EQSITE_LEGS"
+          }
+        ],
+        "psskls": [],
+        "mstlvl": [],
+        "eqskls": [],
+        "rwd": {
+          "money": 69,
+          "spirit": 0,
+          "pts": [
+            {
+              "eptid": "8b5560d2-663a-46c5-8fb0-9e2f89570fdd"
+            }
+          ],
+          "msrs": [],
+          "items": [],
+          "tbtp": ""
+        },
+        "stat": {
+          "elms": []
+        },
+        "bodylvl": {
+          "lvl": 3,
+          "hp": 2,
+          "str": 2,
+          "dex": 1,
+          "vit": 1,
+          "stm": 1,
+          "luk": 1,
+          "skill": 0,
+          "bag": 0
+        },
+        "bodybonus": {
+          "hp_bonus": 0,
+          "str_bonus": 0,
+          "dex_bonus": 0,
+          "vit_bonus": 0,
+          "stm_bonus": 0,
+          "luk_bonus": 0
+        },
+        "hunter": 0,
+        "hp": 230,
+        "emblem": "",
+        "teamname": "",
+        "isduring": 0,
+        "isfriend": 0,
+        "bodymaxlvl": 6,
+        "unit": "A04_CV_V01",
+        "pntid": "MET_ZMB_TGT_01"
+      }
+    ],
+    "tbms": [
+      {
+        "unit": "A03_CV_V01",
+        "pntid": "MET_TB_TGT_01",
+        "type": "TBTP_SMALL",
+        "apid": "TBAP_FACE_DOWN",
+        "prio": 1,
+        "money": 598,
+        "genid": ""
+      }
+    ],
+    "tbps": [],
+    "tbis": [
+      {
+        "unit": "A04_CV_V01",
+        "pntid": "MET_TB_TGT_00",
+        "type": "TBTP_SMALL",
+        "apid": "TBAP_FACE_DOWN",
+        "prio": 2,
+        "eitemid": "d93b3cf9-9acf-4df9-89bb-ee8494b5048c",
+        "itemId": "ITMP_ARM_WP005_001",
+        "genid": ""
+      }
+    ],
+    "shps": [],
+    "mbss": [],
+    "zks": [
+      {
+        "zkid": "204a2cd2-052a-485c-a812-9cc47e3a53ef",
+        "lvl": 1,
+        "type": "ZAKO_SCRATCH",
+        "path": "",
+        "pspts": [],
+        "rwd": {
+          "pts": [],
+          "money": 165,
+          "spirit": 0,
+          "msrs": [],
+          "items": []
+        },
+        "trbox": [],
+        "unit": "A18_ST_V01",
+        "pntid": "MET_ZAKO_TGT_01",
+        "genid": "ZKGEN_20"
+      },
+      {
+        "zkid": "23b295f7-90ae-4aa5-b52f-905a32dc1d0c",
+        "lvl": 1,
+        "type": "ZAKO_SCRATCH",
+        "path": "",
+        "pspts": [],
+        "rwd": {
+          "pts": [],
+          "money": 174,
+          "spirit": 0,
+          "msrs": [],
+          "items": []
+        },
+        "trbox": [],
+        "unit": "A18_ST_V01",
+        "pntid": "MET_ZAKO_TGT_03",
+        "genid": "ZKGEN_20"
+      },
+      {
+        "zkid": "7245bfa4-d08b-4ec0-83d1-ec3c315d743c",
+        "lvl": 1,
+        "type": "ZAKO_SCRATCH",
+        "path": "",
+        "pspts": [],
+        "rwd": {
+          "pts": [],
+          "money": 179,
+          "spirit": 0,
+          "msrs": [],
+          "items": []
+        },
+        "trbox": [],
+        "unit": "A18_ST_V01",
+        "pntid": "MET_ZAKO_TGT_04",
+        "genid": "ZKGEN_20"
+      },
+      {
+        "zkid": "12622f24-0e45-48de-b62c-c61078636f75",
+        "lvl": 1,
+        "type": "ZAKO_SCRATCH",
+        "path": "",
+        "pspts": [],
+        "rwd": {
+          "pts": [],
+          "money": 179,
+          "spirit": 0,
+          "msrs": [],
+          "items": []
+        },
+        "trbox": [],
+        "unit": "A18_ST_V01",
+        "pntid": "MET_ZAKO_TGT_00",
+        "genid": "ZKGEN_20"
+      },
+      {
+        "zkid": "f0e856ae-d5e4-49fe-b82f-0b190c8129c8",
+        "lvl": 1,
+        "type": "ZAKO_SCRATCH",
+        "path": "",
+        "pspts": [],
+        "rwd": {
+          "pts": [],
+          "money": 172,
+          "spirit": 0,
+          "msrs": [],
+          "items": []
+        },
+        "trbox": [],
+        "unit": "A18_ST_V01",
+        "pntid": "MET_ZAKO_TGT_02",
+        "genid": "ZKGEN_20"
+      },
+      {
+        "zkid": "9a372d73-677c-4914-8a1f-8d163fa7ff92",
+        "lvl": 1,
+        "type": "ZAKO_SCRATCH",
+        "path": "",
+        "pspts": [],
+        "rwd": {
+          "pts": [],
+          "money": 159,
+          "spirit": 0,
+          "msrs": [],
+          "items": []
+        },
+        "trbox": [],
+        "unit": "A04_CV_V01",
+        "pntid": "MET_ZAKO_TGT_00",
+        "genid": "ZKGEN_20"
+      }
+    ],
+    "ffms": [],
+    "msrs": [
+      {
+        "unit": "START_V01",
+        "pntid": "MET_MSR_TGT_03",
+        "msr": {
+          "emsrid": "f91ee38a-b48c-4e47-8223-1f5563facec9",
+          "msrid": "MSR_001",
+          "gettime": 0,
+          "eefcid": "",
+          "tefcid": "",
+          "state": 0
+        },
+        "genid": "MSRGEN_MET_01"
+      },
+      {
+        "unit": "A04_CV_V01",
+        "pntid": "MET_MSR_TGT_01",
+        "msr": {
+          "emsrid": "f6aff655-e0f2-4032-adab-99d16463cb8f",
+          "msrid": "MSR_001",
+          "gettime": 0,
+          "eefcid": "",
+          "tefcid": "",
+          "state": 0
+        },
+        "genid": "MSRGEN_MET_01"
+      },
+      {
+        "unit": "START_V01",
+        "pntid": "MET_MSR_TGT_02",
+        "msr": {
+          "emsrid": "534fd7ae-2b53-4917-b680-a8765ee5c880",
+          "msrid": "MSR_024",
+          "gettime": 0,
+          "eefcid": "",
+          "tefcid": "",
+          "state": 0
+        },
+        "genid": "MSRGEN_MET_01"
+      }
+    ],
+    "items": [
+      {
+        "unit": "A04_CV_V01",
+        "pntid": "MET_ITM_TGT_05",
+        "item": {
+          "eitemid": "3069ebcd-8763-4d21-badb-c312751d6012",
+          "itemId": "ITMT_FIBER_1",
+          "gettime": 0
+        },
+        "genid": "ITEM_GEN_30"
+      },
+      {
+        "unit": "A03_CV_V01",
+        "pntid": "MET_ITM_TGT_05",
+        "item": {
+          "eitemid": "69c28db1-d9ea-4df7-9155-c91017b963df",
+          "itemId": "ITMT_FIBER_1",
+          "gettime": 0
+        },
+        "genid": "ITEM_GEN_30"
+      },
+      {
+        "unit": "A04_CV_V01",
+        "pntid": "MET_ITM_TGT_02",
+        "item": {
+          "eitemid": "85b615cc-5797-42f2-84f6-4799edde1bff",
+          "itemId": "ITMT_FIBER_1",
+          "gettime": 0
+        },
+        "genid": "ITEM_GEN_30"
+      },
+      {
+        "unit": "A04_CV_V01",
+        "pntid": "MET_ITM_TGT_04",
+        "item": {
+          "eitemid": "894ae946-5030-44ec-9310-5412dd435c55",
+          "itemId": "ITMT_FIBER_1",
+          "gettime": 0
+        },
+        "genid": "ITEM_GEN_30"
+      },
+      {
+        "unit": "A04_CV_V01",
+        "pntid": "MET_ITM_TGT_01",
+        "item": {
+          "eitemid": "9c93eddc-790a-44b1-a701-221cc2b53a98",
+          "itemId": "ITMT_OIL_1",
+          "gettime": 0
+        },
+        "genid": "ITEM_GEN_30"
+      },
+      {
+        "unit": "A03_CV_V01",
+        "pntid": "MET_ITM_TGT_06",
+        "item": {
+          "eitemid": "d09af5cc-1cc5-49bc-9fe3-566de03027b0",
+          "itemId": "ITMT_OIL_1",
+          "gettime": 0
+        },
+        "genid": "ITEM_GEN_30"
+      },
+      {
+        "unit": "A04_CV_V01",
+        "pntid": "MET_ITM_TGT_00",
+        "item": {
+          "eitemid": "d74499f4-7b93-40b8-b1d8-32e0585f0e40",
+          "itemId": "ITMT_OIL_1",
+          "gettime": 0
+        },
+        "genid": "ITEM_GEN_30"
+      },
+      {
+        "unit": "A04_CV_V01",
+        "pntid": "MET_ITM_TGT_03",
+        "item": {
+          "eitemid": "e5328552-d14c-491e-bdff-895cef302815",
+          "itemId": "ITMT_WOOD_1",
+          "gettime": 0
+        },
+        "genid": "ITEM_GEN_30"
+      }
+    ],
+    "bsts": [
+      {
+        "unit": "A04_CV_V01",
+        "pntid": "MET_BST_TGT_00",
+        "bst": {
+          "ebstid": "79e9a914-f534-47d7-acc0-2c798de753d4",
+          "bstid": "BST_FROG",
+          "gettime": 0,
+          "lvl": 1,
+          "state": 0,
+          "rwdmsr": {
+            "emsrid": "314290f5-7d67-46d4-82e2-bfee04bafb4d",
+            "msrid": "MSR_031",
+            "gettime": 0,
+            "eefcid": "",
+            "tefcid": "",
+            "state": 0
+          }
+        },
+        "genid": "BSTGEN_MET_1"
+      },
+      {
+        "unit": "A03_CV_V01",
+        "pntid": "MET_BST_TGT_02",
+        "bst": {
+          "ebstid": "0bf06f7c-4329-4c9a-adc3-f1503e728460",
+          "bstid": "BST_FROG",
+          "gettime": 0,
+          "lvl": 1,
+          "state": 0,
+          "rwdmsr": {
+            "emsrid": "f6960852-4c25-4cce-abf7-b671dbd8f434",
+            "msrid": "MSR_031",
+            "gettime": 0,
+            "eefcid": "",
+            "tefcid": "",
+            "state": 0
+          }
+        },
+        "genid": "BSTGEN_MET_1"
+      },
+      {
+        "unit": "A03_CV_V01",
+        "pntid": "MET_BST_TGT_01",
+        "bst": {
+          "ebstid": "8efcfb7c-de6a-45ee-835e-3e83feded4b1",
+          "bstid": "BST_RAT",
+          "gettime": 0,
+          "lvl": 1,
+          "state": 0,
+          "rwdmsr": {
+            "emsrid": "2df4523b-fab2-4a9a-9aef-a872ce4eb8a4",
+            "msrid": "MSR_033",
+            "gettime": 0,
+            "eefcid": "",
+            "tefcid": "",
+            "state": 0
+          }
+        },
+        "genid": "BSTGEN_MET_1"
+      }
+    ],
+    "gates": [],
+    "dusts": [
+      {
+        "uid": "486445",
+        "flrid": "MET_FLR_02",
+        "areaid": "MET_AREA_020",
+        "unit": "START_V01",
+        "pntid": "MET_DST_TGT_00",
+        "type": "CHARGE",
+        "edustid": "START_V01-MET_DST_TGT_00"
+      }
+    ],
+    "soupshp": 0,
+    "stamp": [
+      {
+        "unit": "A04_CV_V01",
+        "pntid": "MET_STMP_TGT_00"
+      }
+    ],
+    "magazine": [
+      {
+        "uid": "486445",
+        "unit": "A18_ST_V01",
+        "pntid": "MET_MGZN_TGT_02",
+        "magazine_index": 1
+      }
+    ],
+    "cls": [],
+    "sbs": [],
+    "posters": [
+      {
+        "unit": "A21_ST",
+        "tpnt": "MET_PST_TGT_00",
+        "txtid": ""
+      },
+      {
+        "unit": "BOSS",
+        "tpnt": "MET_NEWS_TGT_00",
+        "txtid": ""
+      }
+    ],
+    "jklsdf": [
+      {
+        "type": "JACKAL_X",
+        "rwd": {
+          "pts": [
+            {
+              "eptid": "3ce06c3a-daa7-4120-8333-378051f54022",
+              "gettime": 0,
+              "ptid": "PT_ARM_WP051_001",
+              "rest": 0,
+              "spare": 0,
+              "grade": 0,
+              "dur": 1134,
+              "lvl": 1
+            }
+          ],
+          "money": 0,
+          "spirit": 0,
+          "msrs": [],
+          "items": []
+        },
+        "isKilled": 0,
+        "pspts": [
+          {
+            "eptid": "3ce06c3a-daa7-4120-8333-378051f54022",
+            "gettime": 0,
+            "ptid": "PT_ARM_WP051_001",
+            "rest": 0,
+            "spare": 0,
+            "grade": 0,
+            "dur": 1134,
+            "lvl": 1
+          }
+        ],
+        "eqpts": [
+          {
+            "eptid": "3ce06c3a-daa7-4120-8333-378051f54022",
+            "site": "EQSITE_ARMR"
+          }
+        ]
+      },
+      {
+        "type": "JACKAL_XX",
+        "rwd": {
+          "pts": [],
+          "money": 0,
+          "spirit": 0,
+          "msrs": [],
+          "items": [
+            {
+              "eitemid": "cdd3dddc-3fe0-462c-b8f5-f33ce1434e77",
+              "itemId": "ITMT_STONE_JAC_1",
+              "gettime": 0
+            }
+          ]
+        },
+        "isKilled": 0,
+        "pspts": [],
+        "eqpts": []
+      },
+      {
+        "type": "JACKAL_XXX",
+        "rwd": {
+          "pts": [],
+          "money": 0,
+          "spirit": 0,
+          "msrs": [],
+          "items": [
+            {
+              "eitemid": "1753682e-8480-4732-b314-82e36dc57c9d",
+              "itemId": "ITMT_STONE_JAC_2",
+              "gettime": 0
+            }
+          ]
+        },
+        "isKilled": 0,
+        "pspts": [],
+        "eqpts": []
+      },
+      {
+        "type": "JACKAL_XXXX",
+        "rwd": {
+          "pts": [],
+          "money": 0,
+          "spirit": 0,
+          "msrs": [],
+          "items": [
+            {
+              "eitemid": "f94dfba2-5d3f-4776-81c5-f07189463ecb",
+              "itemId": "ITMT_STONE_JAC_5",
+              "gettime": 0
+            }
+          ]
+        },
+        "isKilled": 0,
+        "pspts": [],
+        "eqpts": []
+      },
+      {
+        "type": "JACKAL_Y",
+        "rwd": {
+          "pts": [
+            {
+              "eptid": "b22224ac-38c2-4427-aa73-6bed2a822388",
+              "gettime": 0,
+              "ptid": "PT_ARM_WP053_001",
+              "rest": 10,
+              "spare": 120,
+              "grade": 0,
+              "dur": 1386,
+              "lvl": 1
+            }
+          ],
+          "money": 0,
+          "spirit": 0,
+          "msrs": [],
+          "items": []
+        },
+        "isKilled": 0,
+        "pspts": [
+          {
+            "eptid": "b22224ac-38c2-4427-aa73-6bed2a822388",
+            "gettime": 0,
+            "ptid": "PT_ARM_WP053_001",
+            "rest": 10,
+            "spare": 120,
+            "grade": 0,
+            "dur": 1386,
+            "lvl": 1
+          }
+        ],
+        "eqpts": [
+          {
+            "eptid": "b22224ac-38c2-4427-aa73-6bed2a822388",
+            "site": "EQSITE_ARMR"
+          }
+        ]
+      },
+      {
+        "type": "JACKAL_YY",
+        "rwd": {
+          "pts": [],
+          "money": 0,
+          "spirit": 0,
+          "msrs": [],
+          "items": [
+            {
+              "eitemid": "47208a7b-657c-4ba6-ba87-ccca19b98df2",
+              "itemId": "ITMT_STONE_JAC_1",
+              "gettime": 0
+            }
+          ]
+        },
+        "isKilled": 0,
+        "pspts": [],
+        "eqpts": []
+      },
+      {
+        "type": "JACKAL_YYY",
+        "rwd": {
+          "pts": [],
+          "money": 0,
+          "spirit": 0,
+          "msrs": [],
+          "items": [
+            {
+              "eitemid": "e72125fa-66a0-44fb-81a1-3cf198dd4564",
+              "itemId": "ITMT_STONE_JAC_3",
+              "gettime": 0
+            }
+          ]
+        },
+        "isKilled": 0,
+        "pspts": [],
+        "eqpts": []
+      },
+      {
+        "type": "JACKAL_YYYY",
+        "rwd": {
+          "pts": [],
+          "money": 0,
+          "spirit": 0,
+          "msrs": [],
+          "items": [
+            {
+              "eitemid": "a0a6adab-0d9b-455a-a58c-aa27a796149f",
+              "itemId": "ITMT_STONE_JAC_Y_2",
+              "gettime": 0
+            }
+          ]
+        },
+        "isKilled": 0,
+        "pspts": [],
+        "eqpts": []
+      },
+      {
+        "type": "JACKAL_Z",
+        "rwd": {
+          "pts": [],
+          "money": 0,
+          "spirit": 0,
+          "msrs": [],
+          "items": [
+            {
+              "eitemid": "4695c106-e25a-4525-bb57-e4d79ded146a",
+              "itemId": "ITMP_JAC_HEAD_003U",
+              "gettime": 0
+            }
+          ]
+        },
+        "isKilled": 0,
+        "pspts": [],
+        "eqpts": []
+      },
+      {
+        "type": "JACKAL_ZZ",
+        "rwd": {
+          "pts": [],
+          "money": 0,
+          "spirit": 0,
+          "msrs": [],
+          "items": [
+            {
+              "eitemid": "d215f170-c7f0-4055-a26d-58d62eb1ffd1",
+              "itemId": "ITMT_STONE_JAC_1",
+              "gettime": 0
+            }
+          ]
+        },
+        "isKilled": 0,
+        "pspts": [],
+        "eqpts": []
+      },
+      {
+        "type": "JACKAL_ZZZ",
+        "rwd": {
+          "pts": [],
+          "money": 0,
+          "spirit": 0,
+          "msrs": [],
+          "items": [
+            {
+              "eitemid": "53197c86-a234-4548-9692-d134f63775fe",
+              "itemId": "ITMT_STONE_JAC_4",
+              "gettime": 0
+            }
+          ]
+        },
+        "isKilled": 0,
+        "pspts": [],
+        "eqpts": []
+      },
+      {
+        "type": "JACKAL_ZZZZ",
+        "rwd": {
+          "pts": [],
+          "money": 0,
+          "spirit": 0,
+          "msrs": [],
+          "items": [
+            {
+              "eitemid": "21a91c1b-30cf-4dc8-aa09-601d2bf9e8e3",
+              "itemId": "ITMT_STONE_JAC_5",
+              "gettime": 0
+            }
+          ]
+        },
+        "isKilled": 0,
+        "pspts": [],
+        "eqpts": []
+      }
+    ],
+    "bos": [
+      {
+        "unit": "A04_CV_V01",
+        "pntid": "MET_BO_TGT_01",
+        "bo": {
+          "botype": "BOX",
+          "eboid": "f9773a1a-48cd-4d28-90a3-e9092f0f2f48",
+          "bsts": [],
+          "money": 30
+        }
+      },
+      {
+        "unit": "A04_CV_V01",
+        "pntid": "MET_BO_TGT_00",
+        "bo": {
+          "botype": "BOX",
+          "eboid": "b05745a0-5026-4782-b71f-88886223b6a4",
+          "bsts": [],
+          "money": 0
+        }
+      },
+      {
+        "unit": "A04_CV_V01",
+        "pntid": "MET_BO_TGT_02",
+        "bo": {
+          "botype": "BOX",
+          "eboid": "e0edea61-dcd4-4299-926e-086d2b8b3863",
+          "bsts": [],
+          "money": 0
+        }
+      }
+    ],
+    "vms": [],
+    "is_closed_area": -1
+  },
+  "user": {
+    "acid": "1310702121",
+    "name": "thisIsTheBest",
+    "medal": 20,
+    "medalinfo": {
+      "free_medal": 20,
+      "paid_medal": 0,
+      "medal_exp": []
+    },
+    "automaticshop_buyable_goods_ids": [
+      26932,
+      26936,
+      26935,
+      26937,
+      26933,
+      26934,
+      26931,
+      14212,
+      14217,
+      14213,
+      14210,
+      14216,
+      14215,
+      14211,
+      14214,
+      27055,
+      27033,
+      26970,
+      26966,
+      26948,
+      26983,
+      26986,
+      27100,
+      26977,
+      26965
+    ],
+    "automaticshop_bought_goods_ids": [],
+    "automaticshop_hvn_bought_goods_ids": [],
+    "automaticshop_weekly_buyable_goods_ids": [
+      {
+        "good_id": 14210,
+        "research_possible": 0
+      },
+      {
+        "good_id": 14211,
+        "research_possible": 0
+      },
+      {
+        "good_id": 14212,
+        "research_possible": 0
+      },
+      {
+        "good_id": 14213,
+        "research_possible": 0
+      },
+      {
+        "good_id": 14214,
+        "research_possible": 0
+      },
+      {
+        "good_id": 14215,
+        "research_possible": 0
+      },
+      {
+        "good_id": 14216,
+        "research_possible": 0
+      },
+      {
+        "good_id": 14217,
+        "research_possible": 0
+      }
+    ],
+    "automaticshop_exchangeable_goods_ids": [
+      6316,
+      6321,
+      6328,
+      6309,
+      6324,
+      6317,
+      6320,
+      6303,
+      6310,
+      6301,
+      6315,
+      6308,
+      6326,
+      6313,
+      6302,
+      6306,
+      6322,
+      6319,
+      6307,
+      6323,
+      6327,
+      6305,
+      6312,
+      6318,
+      6311,
+      6314,
+      6304,
+      6325
+    ],
+    "automaticshop_exchanged_goods_ids": [],
+    "automaticshop_bloodnium_exchangeable_goods_ids": [
+      8637,
+      8614,
+      8617,
+      8628,
+      8603,
+      8630,
+      8627,
+      8620,
+      8605,
+      8618,
+      8604,
+      8616,
+      8631,
+      8612,
+      8636,
+      8619,
+      8610,
+      8601,
+      8611,
+      8629,
+      8634,
+      8623,
+      8613,
+      8607,
+      8606,
+      8632,
+      8635,
+      8626,
+      8621,
+      8624,
+      8622,
+      8608,
+      8602,
+      8609,
+      8625,
+      8633,
+      8615
+    ],
+    "automaticshop_bloodnium_exchanged_goods_ids": [],
+    "langsnd": "int",
+    "langtxt": "int",
+    "srv_time": 1585868561,
+    "soul": {
+      "rank": 1,
+      "tdm_rank": "TDM_RANK_01_01",
+      "tdm_point": 0,
+      "money": 0,
+      "free_money": 0,
+      "paid_money": 0,
+      "spirit": 0,
+      "joinwid": "",
+      "recycle_point": 0,
+      "bloodnium_point": 0,
+      "safe_level": 1,
+      "safe_hp": 680,
+      "safe_limit": 50000,
+      "spirit_tank_level": 1,
+      "spirit_tank_hp": 680,
+      "spirit_tank_limit": 50000,
+      "favorite_team": "",
+      "gi": {
+        "kzids": [],
+        "tbrs": [],
+        "getemsrids": [],
+        "eatemsrids": [],
+        "kebstids": [],
+        "kmbids": [],
+        "zmbrwds": []
+      },
+      "als": [],
+      "chrs": [
+        {
+          "uid": 486445,
+          "cid": "989c1115-7107-4ea0-99e7-efc87076279c",
+          "name": "Christine",
+          "sklgauge": 0,
+          "lvl": 1,
+          "type": "BAL",
+          "grade": 1,
+          "limit_break": 0,
+          "hp": 999999,
+          "exp": 0,
+          "get_exp": 0,
+          "money": 0,
+          "spirit": 0,
+          "bloodnium": 0,
+          "escdie": 0,
+          "pspts": [],
+          "eqpts": [],
+          "eqskls": [],
+          "psmsrs": [],
+          "psbsts": [],
+          "psitems": [],
+          "stat": {
+            "elms": []
+          },
+          "pause": "",
+          "body": {
+            "id": "BODY_FEMALE_002",
+            "gender": "GENDER_FEMALE",
+            "baid": "ASSET_FEMALE_BODY_002",
+            "haid": "ASSET_FEMALE_HAIR_002",
+            "colr": 1,
+            "colg": 1,
+            "colb": 1,
+            "voicep": 2,
+            "voiceb": 5,
+            "provoke": 4
+          },
+          "gasmask": "ASSET_NF_GAS_HEAD_007",
+          "db": {
+            "slots": [
+              {
+                "slot": 0,
+                "eptid": "-1",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 1,
+                "eptid": "-1",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 2,
+                "eptid": "-1",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 3,
+                "eptid": "-1",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 4,
+                "eptid": "-1",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 5,
+                "eptid": "-1",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 6,
+                "eptid": "-1",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 7,
+                "eptid": "-1",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 8,
+                "eptid": "-1",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 9,
+                "eptid": "-1",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 10,
+                "eptid": "-1",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 11,
+                "eptid": "-1",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 12,
+                "eptid": "-1",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 13,
+                "eptid": "-1",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 14,
+                "eptid": "-1",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 15,
+                "eptid": "-1",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 16,
+                "eptid": "-1",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 17,
+                "eptid": "-1",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 18,
+                "eptid": "-1",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 19,
+                "eptid": "-1",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              }
+            ],
+            "pts": [],
+            "msrs": [],
+            "bsts": [],
+            "items": []
+          },
+          "quickuse": [],
+          "quickusearm": {
+            "slots": [
+              {
+                "slot": 0,
+                "eptid": "-1",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 1,
+                "eptid": "-1",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 2,
+                "eptid": "-1",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 3,
+                "eptid": "-1",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 4,
+                "eptid": "-1",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 5,
+                "eptid": "-1",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              }
+            ]
+          },
+          "state": "FREE",
+          "bodylvl": {
+            "lvl": 1,
+            "hp": 1,
+            "str": 1,
+            "dex": 1,
+            "vit": 1,
+            "stm": 1,
+            "luk": 1,
+            "skill": 0,
+            "bag": 0
+          },
+          "bodybonus": {
+            "hp_bonus": 0,
+            "str_bonus": 0,
+            "dex_bonus": 0,
+            "vit_bonus": 0,
+            "stm_bonus": 0,
+            "luk_bonus": 0
+          },
+          "money_rate": 100,
+          "exp_rate": 100,
+          "conexpire": 0,
+          "conbegin": 0,
+          "ransom": 0,
+          "cuname": "",
+          "battlesummary": [],
+          "hunterrecord": {
+            "count": 0,
+            "total_win": 0,
+            "total_lose": 0,
+            "win_rate": 0
+          },
+          "select_arm_slots": []
+        },
+        {
+          "uid": 486445,
+          "cid": "dc62c31d-6484-4c07-bdd2-8342129bd35d",
+          "name": "Tracy",
+          "sklgauge": 0,
+          "lvl": 1,
+          "type": "BAL",
+          "grade": 1,
+          "limit_break": 0,
+          "hp": 167,
+          "exp": 162,
+          "get_exp": 162,
+          "money": 2865,
+          "spirit": 5,
+          "bloodnium": 0,
+          "escdie": 0,
+          "pspts": [
+            {
+              "eptid": "a1d96a06-bf72-496e-b663-12cfcbe81fcc",
+              "gettime": 1585867972,
+              "ptid": "PT_ARM_WP005_001",
+              "rest": 0,
+              "spare": 0,
+              "grade": 0,
+              "dur": 1175,
+              "lvl": 1
+            },
+            {
+              "eptid": "cef0d7ba-efc0-4db7-942e-b6244d0730a4",
+              "gettime": 1585868002,
+              "ptid": "PT_ARM_WP011_001",
+              "rest": 0,
+              "spare": 0,
+              "grade": 0,
+              "dur": 530,
+              "lvl": 1
+            },
+            {
+              "eptid": "95a41e2a-5953-414a-a51d-6574b285b6b8",
+              "gettime": 1585868110,
+              "ptid": "PT_ARM_WP006_001",
+              "rest": 0,
+              "spare": 0,
+              "grade": 0,
+              "dur": 1400,
+              "lvl": 1
+            },
+            {
+              "eptid": "e940fd8a-9a71-49fc-b1ea-b0403c298371",
+              "gettime": 1585868110,
+              "ptid": "PT_ARM_WP005_001",
+              "rest": 0,
+              "spare": 0,
+              "grade": 0,
+              "dur": 1400,
+              "lvl": 1
+            },
+            {
+              "eptid": "3ff1ee55-0085-41e9-b393-0e41919544c8",
+              "gettime": 1585868199,
+              "ptid": "PT_ARM_WP006_001",
+              "rest": 0,
+              "spare": 0,
+              "grade": 0,
+              "dur": 1400,
+              "lvl": 1
+            },
+            {
+              "eptid": "6ee238c0-005f-4e2c-9afd-100e54139a7d",
+              "gettime": 1585868199,
+              "ptid": "PT_ARM_WP005_001",
+              "rest": 0,
+              "spare": 0,
+              "grade": 0,
+              "dur": 1400,
+              "lvl": 1
+            },
+            {
+              "eptid": "487befc4-7ffe-42f3-ae3d-bda5e9cb298f",
+              "gettime": 1585868358,
+              "ptid": "PT_ARM_WP037_001",
+              "rest": 112,
+              "spare": 0,
+              "grade": 0,
+              "dur": 560,
+              "lvl": 1
+            },
+            {
+              "eptid": "8c5ebe84-0621-43fc-bb3a-c928f4de0484",
+              "gettime": 1585868411,
+              "ptid": "PT_ARM_WP011_001",
+              "rest": 0,
+              "spare": 0,
+              "grade": 0,
+              "dur": 371,
+              "lvl": 1
+            }
+          ],
+          "eqpts": [
+            {
+              "site": "EQSITE_ARML",
+              "eptid": "a1d96a06-bf72-496e-b663-12cfcbe81fcc"
+            },
+            {
+              "site": "EQSITE_ARMR",
+              "eptid": "cef0d7ba-efc0-4db7-942e-b6244d0730a4"
+            }
+          ],
+          "eqskls": [
+            {
+              "id": "SKL_DIY_UP_01_P",
+              "slot": 0,
+              "x": 0,
+              "y": 0,
+              "rot": 0
+            }
+          ],
+          "psmsrs": [],
+          "psbsts": [],
+          "psitems": [],
+          "stat": {
+            "elms": []
+          },
+          "pause": "",
+          "body": {
+            "id": "BODY_FEMALE_002",
+            "gender": "GENDER_FEMALE",
+            "baid": "ASSET_FEMALE_BODY_002",
+            "haid": "ASSET_FEMALE_HAIR_002",
+            "colr": 1,
+            "colg": 1,
+            "colb": 1,
+            "voicep": 2,
+            "voiceb": 5,
+            "provoke": 4
+          },
+          "gasmask": "ASSET_NF_GAS_HEAD_002",
+          "db": {
+            "slots": [
+              {
+                "slot": 0,
+                "eptid": "a1d96a06-bf72-496e-b663-12cfcbe81fcc",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 1,
+                "eptid": "cef0d7ba-efc0-4db7-942e-b6244d0730a4",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 2,
+                "eptid": "95a41e2a-5953-414a-a51d-6574b285b6b8",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 3,
+                "eptid": "e940fd8a-9a71-49fc-b1ea-b0403c298371",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 4,
+                "eptid": "3ff1ee55-0085-41e9-b393-0e41919544c8",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 5,
+                "eptid": "6ee238c0-005f-4e2c-9afd-100e54139a7d",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 6,
+                "eptid": "487befc4-7ffe-42f3-ae3d-bda5e9cb298f",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 7,
+                "eptid": "8c5ebe84-0621-43fc-bb3a-c928f4de0484",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 8,
+                "eptid": "-1",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 9,
+                "eptid": "-1",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 10,
+                "eptid": "-1",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 11,
+                "eptid": "-1",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 12,
+                "eptid": "-1",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 13,
+                "eptid": "-1",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 14,
+                "eptid": "-1",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 15,
+                "eptid": "-1",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 16,
+                "eptid": "-1",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 17,
+                "eptid": "-1",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 18,
+                "eptid": "-1",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 19,
+                "eptid": "-1",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              }
+            ],
+            "pts": [
+              {
+                "eptid": "a1d96a06-bf72-496e-b663-12cfcbe81fcc",
+                "gettime": 1585867972,
+                "ptid": "PT_ARM_WP005_001",
+                "rest": 0,
+                "spare": 0,
+                "grade": 0,
+                "dur": 1175,
+                "lvl": 1
+              },
+              {
+                "eptid": "cef0d7ba-efc0-4db7-942e-b6244d0730a4",
+                "gettime": 1585868002,
+                "ptid": "PT_ARM_WP011_001",
+                "rest": 0,
+                "spare": 0,
+                "grade": 0,
+                "dur": 530,
+                "lvl": 1
+              },
+              {
+                "eptid": "95a41e2a-5953-414a-a51d-6574b285b6b8",
+                "gettime": 1585868110,
+                "ptid": "PT_ARM_WP006_001",
+                "rest": 0,
+                "spare": 0,
+                "grade": 0,
+                "dur": 1400,
+                "lvl": 1
+              },
+              {
+                "eptid": "e940fd8a-9a71-49fc-b1ea-b0403c298371",
+                "gettime": 1585868110,
+                "ptid": "PT_ARM_WP005_001",
+                "rest": 0,
+                "spare": 0,
+                "grade": 0,
+                "dur": 1400,
+                "lvl": 1
+              },
+              {
+                "eptid": "3ff1ee55-0085-41e9-b393-0e41919544c8",
+                "gettime": 1585868199,
+                "ptid": "PT_ARM_WP006_001",
+                "rest": 0,
+                "spare": 0,
+                "grade": 0,
+                "dur": 1400,
+                "lvl": 1
+              },
+              {
+                "eptid": "6ee238c0-005f-4e2c-9afd-100e54139a7d",
+                "gettime": 1585868199,
+                "ptid": "PT_ARM_WP005_001",
+                "rest": 0,
+                "spare": 0,
+                "grade": 0,
+                "dur": 1400,
+                "lvl": 1
+              },
+              {
+                "eptid": "487befc4-7ffe-42f3-ae3d-bda5e9cb298f",
+                "gettime": 1585868358,
+                "ptid": "PT_ARM_WP037_001",
+                "rest": 112,
+                "spare": 0,
+                "grade": 0,
+                "dur": 560,
+                "lvl": 1
+              },
+              {
+                "eptid": "8c5ebe84-0621-43fc-bb3a-c928f4de0484",
+                "gettime": 1585868411,
+                "ptid": "PT_ARM_WP011_001",
+                "rest": 0,
+                "spare": 0,
+                "grade": 0,
+                "dur": 371,
+                "lvl": 1
+              }
+            ],
+            "msrs": [],
+            "bsts": [],
+            "items": []
+          },
+          "quickuse": [],
+          "quickusearm": {
+            "slots": [
+              {
+                "slot": 0,
+                "eptid": "cef0d7ba-efc0-4db7-942e-b6244d0730a4",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 1,
+                "eptid": "e940fd8a-9a71-49fc-b1ea-b0403c298371",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 2,
+                "eptid": "8c5ebe84-0621-43fc-bb3a-c928f4de0484",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 3,
+                "eptid": "a1d96a06-bf72-496e-b663-12cfcbe81fcc",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 4,
+                "eptid": "95a41e2a-5953-414a-a51d-6574b285b6b8",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              },
+              {
+                "slot": 5,
+                "eptid": "487befc4-7ffe-42f3-ae3d-bda5e9cb298f",
+                "emsrid": "-1",
+                "ebstid": "-1",
+                "eitemid": "-1"
+              }
+            ]
+          },
+          "state": "USE",
+          "bodylvl": {
+            "lvl": 1,
+            "hp": 1,
+            "str": 1,
+            "dex": 1,
+            "vit": 1,
+            "stm": 1,
+            "luk": 1,
+            "skill": 0,
+            "bag": 0
+          },
+          "bodybonus": {
+            "hp_bonus": 0,
+            "str_bonus": 0,
+            "dex_bonus": 0,
+            "vit_bonus": 0,
+            "stm_bonus": 0,
+            "luk_bonus": 0
+          },
+          "money_rate": 100,
+          "exp_rate": 100,
+          "conexpire": 0,
+          "conbegin": 0,
+          "ransom": 0,
+          "cuname": "",
+          "battlesummary": [],
+          "hunterrecord": {
+            "count": 0,
+            "total_win": 0,
+            "total_lose": 0,
+            "win_rate": 0
+          },
+          "select_arm_slots": []
+        }
+      ],
+      "chrslots": [
+        {
+          "slot": 0,
+          "cid": "989c1115-7107-4ea0-99e7-efc87076279c"
+        },
+        {
+          "slot": 1,
+          "cid": "dc62c31d-6484-4c07-bdd2-8342129bd35d"
+        },
+        {
+          "slot": 2,
+          "cid": ""
+        }
+      ],
+      "dchrs": [],
+      "hunters": [],
+      "psskls": [
+        {
+          "id": "SKL_DIY_UP_01_P",
+          "lvl": 1,
+          "cnt": 0,
+          "is_checked": 0
+        },
+        {
+          "id": "SKL_DRAIN_01",
+          "lvl": 1,
+          "cnt": 1,
+          "is_checked": 0
+        }
+      ],
+      "statmsrs": [],
+      "msrbook": [
+        {
+          "msrid": "MSR_013",
+          "is_eat": 0,
+          "is_beat": 0,
+          "is_checked": 0
+        },
+        {
+          "msrid": "MSR_007",
+          "is_eat": 1,
+          "is_beat": 0,
+          "is_checked": 0
+        }
+      ],
+      "bstbook": [
+        {
+          "bstid": "BST_FROG",
+          "is_eat": 1,
+          "is_beat": 0,
+          "is_checked": 0
+        }
+      ],
+      "cl": [],
+      "stamp": {
+        "stamp_list": [
+          13,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      },
+      "magazine": {
+        "status_list": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      },
+      "sinario_prog": [],
+      "gameflg": [
+        "KGF_DEATH_MAIL_27",
+        "KGF_FIRST_KINOKOYA",
+        "KGF_FIRST_PLAY",
+        "KGF_FIRST_SHOP_BASE",
+        "KGF_INSTALLED_ALL_CHUNKS",
+        "KGF_MEIJIN_TIPS_47",
+        "KGF_MEIJIN_TIPS_48",
+        "KGF_MEIJIN_TIPS_67",
+        "KGF_MET_SAFE_MOMOKOYAMADA",
+        "KGF_MET_TUTORIAL_CLEAR",
+        "KGF_MOTHERVALVE_LIST_00",
+        "KGF_MOTHERVALVE_LIST_01",
+        "KGF_MOTHERVALVE_LIST_02",
+        "KGF_MOTHERVALVE_LIST_03",
+        "KGF_TUTORIAL_BALLOON_12",
+        "KGF_TUTORIAL_BALLOON_14",
+        "KGF_TUTORIAL_BALLOON_15",
+        "KGF_TUTORIAL_BALLOON_22",
+        "KGF_TUTORIAL_BALLOON_24",
+        "KGF_TUTORIAL_BALLOON_32",
+        "KGF_TUTORIAL_DEATHBAG_ENABLE",
+        "KGF_TUTORIAL_DHSERVICE_ENABLE",
+        "KGF_TUTORIAL_DROPDEATHBAG_ENABLE",
+        "KGF_TUTORIAL_ENMATYOU_ENABLE",
+        "KGF_TUTORIAL_RAGEMOVE_ENABLE",
+        "KGF_TUTORIAL_RETURN_TITLE_ENABLE",
+        "KGF_UNCLE_PRIME_FIRST",
+        "KGF_MET_VLVGT_ST_AREA010",
+        "KGF_MEIJIN_TIPS_01",
+        "KGF_MEIJIN_TIPS_02",
+        "KGF_TUTORIAL_COMP",
+        "KGF_MET_BTNGT_ST_AREA010",
+        "KGF_MET_MEET_RANDOM",
+        "KGF_DEATH_MAIL_08",
+        "KGF_DEATH_MAIL_32",
+        "KGF_MEIJIN_TIPS_53",
+        "KGF_MEIJIN_TIPS_30",
+        "KGF_MET_FLR_01_MET_AREA_010_Metro_A27_GRP_DR",
+        "KGF_TUTORIAL_BALLOON_19",
+        "KGF_MET_BTNGT_GL_AREA010"
+      ],
+      "opelvflrs": [
+        {
+          "id": "ELV_MAIN_HUB",
+          "price": 240
+        },
+        {
+          "id": "ELV_MAIN_MET_FLR_01",
+          "price": 180
+        }
+      ],
+      "mstlvl": [
+        {
+          "ptarmtp": "PTARMTP_00",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_01",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_02",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_03",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_04",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_05",
+          "abp": 50,
+          "lvl": 2,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_06",
+          "abp": 0,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_07",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_08",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_11",
+          "abp": 175,
+          "lvl": 3,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_12",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_13",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_16",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_17",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_18",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_19",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_20",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_21",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_22",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_23",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_24",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_25",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_26",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_28",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_29",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_30",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_31",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_32",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_33",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_34",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_35",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_36",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_37",
+          "abp": 0,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_38",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_39",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_40",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_41",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_42",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_43",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_44",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_45",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_46",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_47",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_48",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_50",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_51",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_52",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_53",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_54",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_55",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_56",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_57",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_58",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_59",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_62",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_63",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        },
+        {
+          "ptarmtp": "PTARMTP_64",
+          "abp": -1,
+          "lvl": 1,
+          "is_checked": 0
+        }
+      ],
+      "mstpnt": 0,
+      "crntcid": "dc62c31d-6484-4c07-bdd2-8342129bd35d",
+      "quests": [],
+      "research": [],
+      "partresearch": [],
+      "waiting": [
+        {
+          "uid": 486445,
+          "wait_type": "BUYPART",
+          "part_id": "PT_ARM_WP006_001",
+          "part_lvl": 1,
+          "facility_type": "",
+          "created": 1585868199,
+          "period": 1585868256
+        },
+        {
+          "uid": 486445,
+          "wait_type": "BUYPART",
+          "part_id": "PT_ARM_WP005_001",
+          "part_lvl": 1,
+          "facility_type": "",
+          "created": 1585868199,
+          "period": 1585868257
+        }
+      ],
+      "pause": "CRASH",
+      "quick_config": {
+        "pss": [],
+        "pis": [
+          {
+            "name": "ListOnOff_All",
+            "value": 1
+          }
+        ]
+      },
+      "pb": 0,
+      "vip": {
+        "vip_flag": 0,
+        "vip_type": 0,
+        "vip_pass_num": 0,
+        "oneday_vip_pass_num": 5,
+        "expired_time": 0,
+        "automatic_renewal": 0,
+        "friendship": 1
+      },
+      "mail": [
+        {
+          "maileid": "15633f0e-429f-4456-845a-ae20ec824334",
+          "mailid": "MAIL_27",
+          "from": "DEATH",
+          "title": "",
+          "message": "",
+          "created": 1585868077,
+          "is_checked": 0
+        },
+        {
+          "maileid": "171e5df1-6f18-4ef8-bb86-66879f6af118",
+          "mailid": "MAIL_05",
+          "from": "YOTSUYAMA",
+          "title": "",
+          "message": "",
+          "created": 1585834836,
+          "is_checked": 0
+        },
+        {
+          "maileid": "1f64dfb5-35df-4222-900d-308e13e32546",
+          "mailid": "",
+          "from": "YOTSUYAMA",
+          "title": "New User Benefits",
+          "message": "Welcome, new player!<br>\r\nTo thank you for playing LET IT DIE,<br>\r\nhere are some presents from us:<br>\r\n <br>\r\n・KAMAS-A1 Assault Rifle(Blueprint)<br>\r\n・Death Metal x20<br>\r\n・200,000  Kill Coins<br>\r\n・Golden Bird x5<br>\r\n・Express 1 Day Pass x5<br>\r\n・Skill decal Vampire<br>\r\n・Skill decal One Shot One Kill<br>\r\n・Skill decal Barbarian<br>\r\n <br>\r\nMaterials required for the R&D of<br>\r\nassault rifles can be obtained by searching<br>\r\n(2F) WANOKI, (4F) TAGAHARA, (7F) DANEDA<br>\r\nand various floors above the 11th Floor.<br>\r\n <br>\r\n*Please collect the items from the Rewards Box.",
+          "created": 1585834836,
+          "is_checked": 0
+        },
+        {
+          "maileid": "e13ea0e8-fca8-482e-884b-89e0c03d0def",
+          "mailid": "MAIL_18",
+          "from": "YOTSUYAMA",
+          "title": "",
+          "message": "1,「SPLithium×10000」<br>「Express 1 Day Pass×3」",
+          "created": 1585834836,
+          "is_checked": 0
+        },
+        {
+          "maileid": "82f88e33-de33-4e40-bf46-fb7f94d321ef",
+          "mailid": "MAIL_08",
+          "from": "DEATH",
+          "title": "",
+          "message": "",
+          "created": 1585868348,
+          "is_checked": 0
+        },
+        {
+          "maileid": "1095d3c0-8142-43c9-8f33-c6683c74deba",
+          "mailid": "MAIL_32",
+          "from": "DEATH",
+          "title": "",
+          "message": "",
+          "created": 1585868353,
+          "is_checked": 0
+        },
+        {
+          "maileid": "",
+          "mailid": "",
+          "from": "ANNOUNCE",
+          "title": "",
+          "message": "<a=http://www.letitdiethegame.com/news.html#/5128/><img=tx_ps4_prbanner_v0132_info.png??q=f6c64e020d4e820d0b6fcf67574b2eef></a><br>\r\n3/30/2020 - 4/29/2020<br>\r\n6 Million Downloads!",
+          "created": 1585562400,
+          "is_checked": 0
+        },
+        {
+          "maileid": "",
+          "mailid": "",
+          "from": "ANNOUNCE",
+          "title": "",
+          "message": "<a=https://store.steampowered.com/app/1266500><img=game_banner_6m100d.png??q=fa10da26ec5969d69239fa931fd385d7></a><br>\r\n3/30/2020<br>\r\n(6 Mil Downloads)100 Death Metals <br>On Sale Now! ",
+          "created": 1585562400,
+          "is_checked": 0
+        },
+        {
+          "maileid": "",
+          "mailid": "",
+          "from": "ANNOUNCE",
+          "title": "",
+          "message": "<a=https://store.steampowered.com/app/1266501><img=game_banner_6mspp.png??q=36d75438a975a8a7f24fbf86cc422234></a><br>\r\n3/30/2020<br>\r\n(6 Mil Downloads)Special pack<br>On Sale Now! ",
+          "created": 1585562400,
+          "is_checked": 0
+        },
+        {
+          "maileid": "",
+          "mailid": "",
+          "from": "ANNOUNCE",
+          "title": "",
+          "message": "<a=https://store.steampowered.com/app/1266502><img=game_banner_10d.png??q=e7840d9a3aaeb2ddfe7e8bb6e982aaaf></a><br>\r\n3/30/2020<br>\r\n(Special)10 Death Metals On Sale Now! ",
+          "created": 1585562400,
+          "is_checked": 0
+        },
+        {
+          "maileid": "",
+          "mailid": "",
+          "from": "ANNOUNCE",
+          "title": "",
+          "message": "<a=https://store.steampowered.com/app/1266503><img=game_banner_50d.png??q=2ae52dd06f4e634089ac1fb38fe9f093></a><br>\r\n3/30/2020<br>\r\n(Special)50 Death Metals On Sale Now! ",
+          "created": 1585562400,
+          "is_checked": 0
+        },
+        {
+          "maileid": "",
+          "mailid": "",
+          "from": "ANNOUNCE",
+          "title": "",
+          "message": "<a=http://www.letitdiethegame.com/news.html#/5138/><img=tx_ps4_prbanner_v0032_info.png??q=a878546d401e023206e13af66c7239a3></a><br>\r\n3/30/2020 - 5/28/2020<br>\r\nSpring Egg Scramble!",
+          "created": 1585562400,
+          "is_checked": 0
+        },
+        {
+          "maileid": "",
+          "mailid": "",
+          "from": "ANNOUNCE",
+          "title": "",
+          "message": "<a=http://www.letitdiethegame.com/news.html#/5140/><img=tx_ps4_prbanner_v0078_info.png??q=e584fc2247fa60a436d490629249ece2></a><br>\r\n3/30/2020 – 6/29/2020<br>\r\nTDM Battle Rush: Season 11 <br>",
+          "created": 1585562400,
+          "is_checked": 0
+        },
+        {
+          "maileid": "",
+          "mailid": "",
+          "from": "ANNOUNCE",
+          "title": "",
+          "message": "<a=http://www.letitdiethegame.com/news.html#/1231/><img=tx_ps4_prbanner_v0046_info.png?????q=5f8d9679cd6ba900c342fbeeabb10cf4></a><br>\r\nTower of Barbs: Tectonic Terror Event!",
+          "created": 1585821600,
+          "is_checked": 0
+        },
+        {
+          "maileid": "",
+          "mailid": "",
+          "from": "ANNOUNCE",
+          "title": "",
+          "message": "<a=https://store.steampowered.com/app/907880><img=tx_ps4_prbanner_v0119_info.png???q=2813748313b9f958e20e14d434ef401d></a><br>\r\nNeed Help Exploring the Tower?<br>\r\nSpecial Pack On Sale Now!",
+          "created": 1537920000,
+          "is_checked": 0
+        },
+        {
+          "maileid": "",
+          "mailid": "",
+          "from": "ANNOUNCE",
+          "title": "",
+          "message": "<a=https://store.steampowered.com/app/907881><img=tx_ps4_prbanner_v0118_info.png??q=0f16ad3fa84ffed303d68ed362357449></a><br>\r\nNeed Even More Help Exploring the Tower? <br>\r\nPlatinum Pack On Sale Now!",
+          "created": 1537920000,
+          "is_checked": 0
+        },
+        {
+          "maileid": "",
+          "mailid": "",
+          "from": "ANNOUNCE",
+          "title": "",
+          "message": "<a=https://www.letitdiethegame.com/news#/3132/><img=tx_ps4_prbanner_v0120_info.png????????q=7213c9b6863d1cfeea220de0b6db25f0></a><br>\r\nLogin Everyday<br>\r\nBe sure to login everyday to pick up some awesome<br>\r\ngifts.",
+          "created": 1480464000,
+          "is_checked": 0
+        }
+      ],
+      "jointeams": [
+        {
+          "tid": "",
+          "name": "Yotsuyama",
+          "emblem": "TM_EM_DUMY",
+          "pos_x": 0,
+          "pos_y": 0,
+          "war_win": 0,
+          "war_lose": 0,
+          "tdm_point_avr": 0,
+          "member_cnt": 0,
+          "active_member_cnt": 0,
+          "last_war_time": 0,
+          "created": 0,
+          "modified": 0
+        }
+      ],
+      "tid": "",
+      "areaflgs": [
+        {
+          "idx": 84,
+          "value": 1
+        },
+        {
+          "idx": 85,
+          "value": 41
+        },
+        {
+          "idx": 86,
+          "value": 1
+        }
+      ],
+      "escflgs": [
+        {
+          "idx": 90,
+          "value": 7
+        },
+        {
+          "idx": 278,
+          "value": 7
+        },
+        {
+          "idx": 88,
+          "value": 7
+        }
+      ],
+      "radio": {
+        "channel": "000",
+        "power": 1
+      },
+      "screenshot": [],
+      "team_expired_time": 0,
+      "last_hub_time": -1,
+      "last_visiting_shop_time": 1585868195,
+      "mainte_announce": 1585555200,
+      "announce_display": 1585551600,
+      "free_continue_count": 1,
+      "free_continue_max_count": 1,
+      "automaticshop_lamp": 1,
+      "automaticshop_weekly_lamp": 0,
+      "whistle_id": "",
+      "whistle_limit": 0,
+      "unlocked_fighter": [],
+      "research_stamp": [],
+      "hvn_treasure_info": []
+    }
+  },
+  "msgs": [],
+  "rescuelog": [],
+  "deathbox": "",
+  "playlog": [
+    {
+      "uid": "486445",
+      "total_play_time": 1245,
+      "total_money": 0,
+      "total_mushroom_cnt": 1,
+      "total_mushroom_kind": 1,
+      "total_beast_cnt": 1,
+      "total_beast_kind": 1,
+      "total_get_weapon_cnt": 3,
+      "total_get_armor_cnt": 0,
+      "total_get_material_cnt": 0,
+      "shop_enable_equip_kind": 2,
+      "total_research_cnt": 0,
+      "total_skill_cnt": 2,
+      "exchange_skill_cnt": 0,
+      "bivouac": 0,
+      "return_cnt": 0,
+      "max_floor": 2,
+      "move_floor_cnt": 3,
+      "elevator_cnt": 0,
+      "escalator_cnt": 3,
+      "move_dist": "190534",
+      "interruption": 49,
+      "bad_condition_cnt": 1,
+      "total_throw_mushroom_cnt": 1,
+      "total_baked_mushroom_cnt": 0,
+      "total_throw_beast_cnt": 0,
+      "total_baked_beast_cnt": 0,
+      "total_purchase_cnt": 5,
+      "total_purchase_gyaku_cnt": 0,
+      "shop_get_money": 0,
+      "shop_use_money": 0,
+      "init_use_money": 0,
+      "total_break_weapon_cnt": 0,
+      "total_break_armor_cnt": 0,
+      "circle_crusher": 0,
+      "user": {
+        "total_damage": "265",
+        "total_give_damage": "2797",
+        "attack_cnt": 119,
+        "hit_cnt": 108,
+        "use_GORE_cnt": 2,
+        "use_RAGEMOVE_cnt": 7,
+        "use_StealthAttack_cnt": 0,
+        "use_HeadShot_cnt": 0,
+        "use_JustGuard_cnt": 0,
+        "use_Trampled_cnt": 12,
+        "use_Provocation_cnt": 0,
+        "use_GermanSuplex_cnt": 0,
+        "use_JumpAttack_cnt": 0,
+        "use_DeprivedWeapon_cnt": 0,
+        "use_Dropkick_cnt": 3
+      },
+      "died": {
+        "total_died_cnt": 0,
+        "killed_NormalEnemy_cnt": 0,
+        "killed_Zombie_cnt": 0,
+        "killed_PlayerEnemy_cnt": 0,
+        "killed_4ForceMen_cnt": 0,
+        "killed_Coen_cnt": 0,
+        "killed_Jindie_cnt": 0,
+        "killed_Goto09_cnt": 0,
+        "killed_U10_cnt": 0,
+        "killed_MaxSharp_cnt": 0,
+        "killed_Jackson_cnt": 0,
+        "killed_Crowley_cnt": 0,
+        "killed_Gunkan_cnt": 0,
+        "killed_JACKAL_X_cnt": 0,
+        "killed_JACKAL_Y_cnt": 0,
+        "killed_JACKAL_Z_cnt": 0,
+        "killed_JACKAL_XX_cnt": 0,
+        "killed_JACKAL_YY_cnt": 0,
+        "killed_JACKAL_ZZ_cnt": 0,
+        "killed_JACKAL_XXX_cnt": 0,
+        "killed_JACKAL_YYY_cnt": 0,
+        "killed_JACKAL_ZZZ_cnt": 0,
+        "killed_whitesteel_cnt": 0,
+        "killed_rednapalm_cnt": 0,
+        "killed_blackthunder_cnt": 0,
+        "killed_palewind_cnt": 0,
+        "by_RAGEMOVE_cnt": 0,
+        "by_GORE_cnt": 0,
+        "by_fall_cnt": 0,
+        "by_beast_cnt": 0
+      },
+      "kill": {
+        "total_enemy_cnt": 15,
+        "kill_NormalEnemy_cnt": 5,
+        "kill_Zombie_cnt": 9,
+        "kill_PlayerEnemy_cnt": 1,
+        "kill_4ForceMen_cnt": 0,
+        "kill_Coen_cnt": 0,
+        "kill_Jindie_cnt": 0,
+        "kill_Goto09_cnt": 0,
+        "kill_U10_cnt": 0,
+        "kill_MaxSharp_cnt": 0,
+        "kill_Jackson_cnt": 0,
+        "kill_Crowley_cnt": 0,
+        "kill_Gunkan_cnt": 0,
+        "kill_JACKAL_X_cnt": 0,
+        "kill_JACKAL_Y_cnt": 0,
+        "kill_JACKAL_Z_cnt": 0,
+        "kill_whitesteel_cnt": 0,
+        "kill_rednapalm_cnt": 0,
+        "kill_blackthunder_cnt": 0,
+        "kill_palewind_cnt": 0,
+        "by_RAGEMOVE_cnt": 0,
+        "kill_beast_cnt": 0
+      },
+      "famous": {
+        "skill": "SKL_DIY_UP_01_P",
+        "arm": "PT_ARM_WP011_001",
+        "head": "",
+        "body": "",
+        "legs": "",
+        "category": "DRCAT_HOMECENTER",
+        "died_arm": "",
+        "died_area": "AREA_NAME.TXT_MET_0000",
+        "mushroom": "MSR_007",
+        "beast": "BST_FROG"
+      },
+      "chara": {
+        "send_cnt": 0,
+        "send_time": 0,
+        "send_success": 0,
+        "send_failed": 0,
+        "revenge_success": 0,
+        "receive_cnt": 0,
+        "receive_kill_cnt": 0,
+        "receive_died_cnt": 0,
+        "receive_average": "0"
+      },
+      "money": {
+        "total_get_money": "63136",
+        "total_use_money": "110000",
+        "total_get_spirit": "5",
+        "total_use_spirit": "0",
+        "shop_use_money": "10000",
+        "shop_get_money": "0",
+        "item_shop_use_money": "0",
+        "floor_shop_use_money": "0",
+        "mushroom_shop_use_money": "50000",
+        "mushroom_shop_get_money": "0",
+        "attack_get_money": "0",
+        "attack_get_spirit": "0",
+        "defense_get_money": "0",
+        "defense_get_spirit": "0",
+        "init_get_spirit": "0",
+        "fighter_use_money": "0",
+        "ransom_use_money": "0",
+        "init_use_money": "0"
+      },
+      "fighter": {
+        "get_fighter": 2,
+        "lost_fighter": 0,
+        "recover_fighter": 1,
+        "destory_fighter": 0,
+        "capture_fighter": 0,
+        "init_fighter": 0,
+        "get_init_fighter": 0,
+        "release_capture_fighter": 0,
+        "captured_my_fighter": 0,
+        "release_fighter": 0,
+        "release_my_fighter": 0
+      },
+      "fort": {
+        "attack_cnt": 0,
+        "attack_success_cnt": 0,
+        "attack_fail_cnt": 0,
+        "attack_escape_cnt": 0,
+        "defense_cnt": 0,
+        "defense_success_cnt": 0,
+        "defense_fail_cnt": 0,
+        "total_team_cnt": 0,
+        "long_time_team": "",
+        "during_war_cnt": 0,
+        "old_version_tdm_rank": "--",
+        "old_version_tdm_point": 0,
+        "long_time_teams": []
+      }
+    }
+  ],
+  "av": 3,
+  "dv": 149,
+  "e": "0",
+  "st": 0,
+  "emsg": "",
+  "eparam": "",
+  "env": "prds",
+  "accountId": "S1310702121",
+  "json": 1,
+  "ctime": {
+    "sec": 1585868561,
+    "msec": 625,
+    "svr": 1
+  }
+}

@@ -4,6 +4,7 @@ module.exports = (req, resp) => {
 	var reqData = "";
 	req.on('data', function(chunk){ reqData += chunk})
 	req.on('end', function(){
+		console.log()
 		resp.send({
 			"playlog": save.getPlaylog(),
 			"av": 3,

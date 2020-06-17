@@ -13,11 +13,29 @@ exports.getSoul = () => {
 	}
 
 	return JSON.parse(fs.readFileSync(appDir + 'Save/soul.json'))["soul"];
-}
+};
 
 exports.setSoul = (soul) => {
+
 	fs.writeFileSync(appDir + 'Save/soul.json', JSON.stringify({'soul':soul}));
-}
+};
+
+exports.emptyWallet = (soul) => {
+	for(let char in soul["chrs"]){
+		if(soul["chrs"][char]["state"] === "USE") {
+
+			soul["money"] += soul["chrs"][char]["money"];
+			soul["chrs"][char]["spirit"] = 0;
+
+			soul["spirit"] += soul["chrs"][char]["spirit"];
+			soul["chrs"][char]["money"] = 0;
+
+			soul["bloodnium"] += soul["chrs"][char]["bloodnium"];
+			soul["chrs"][char]["bloodnium"] = 0;
+		}
+	}
+	return soul;
+};
 
 exports.getUser = () => {
 	if (!fs.existsSync(appDir + 'Save/user.json')) {
@@ -33,7 +51,7 @@ exports.getUser = () => {
 	var user = JSON.parse(fs.readFileSync(appDir + 'Save/user.json'))
 	user["user"]["soul"] = exports.getSoul();
 	return user["user"];
-}
+};
 
 exports.setUser = (user) => {
 	exports.setSoul(user['soul']);
@@ -156,3 +174,7 @@ exports.getTutorialState = () => {
 exports.setTutorialState = (tutorial) => {
 	fs.writeFileSync(appDir + 'Save/tutorial.json', JSON.stringify({'tutorial':tutorial}));
 }
+
+exports.getDailyTmpl = () => {
+	return fs.readFileSync(`Data/tmpl/${(new Date).getDay()}.json`)['tmplinfo'];
+};

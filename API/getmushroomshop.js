@@ -8,27 +8,23 @@ module.exports = (req, resp) => {
 		resp.send({
 			"shop":[
 			{
-				"sklid":"SKL_ATKDEFUP_HPLOW_01",
+				"sklid":"SKL_YOYO_ATKUP_01_P",
 				"lvl":1
 			},
 			{
-				"sklid":"SKL_LESDMG_FALLING_01",
+				"sklid":"SKL_DEATH_PROOF_03_P",
+				"lvl":2
+			},
+			{
+				"sklid":"SKL_JEANE_NMH_P",
 				"lvl":1
 			},
 			{
-				"sklid":"SKL_DODGEUP_01",
+				"sklid":"SKL_ASLTRFL_BULLET_UP_P",
 				"lvl":1
 			},
 			{
-				"sklid":"SKL_ATKUP_01",
-				"lvl":1
-			},
-			{
-				"sklid":"SKL_DRAIN_02",
-				"lvl":1
-			},
-			{
-				"sklid":"SKL_DECFIRE_01",
+				"sklid":"SKL_FIGHTER_STUP_02_P",
 				"lvl":1
 			},
 			{
@@ -61,6 +57,11 @@ module.exports = (req, resp) => {
 			}
 			],
 			"shop_exchange":[
+
+				{
+					"sklid":"SKL_YOYO_ATKUP_01_P",
+					"lvl":1
+				},
 			{
 				"sklid":"SKL_DIY_UP_01",
 				"lvl":1
@@ -87,10 +88,10 @@ module.exports = (req, resp) => {
 			],
 			"gachas":[
 			{
-				"gacha_id":"SKLGACH_DEATHMETAL_200303",
+				"gacha_id":"SKLGACH_DEATHMETAL_200303", //dm pool
 				"contents":[
 				{
-					"skill_id":"SKL_ADVENTURE_01_P",
+					"skill_id":"SKL_YOYO_ATKUP_01_P",
 					"display_priority":0
 				},
 				{
@@ -656,7 +657,7 @@ module.exports = (req, resp) => {
 				]
 			},
 			{
-				"gacha_id":"SKLGACH_NORMAL_200228",
+				"gacha_id":"SKLGACH_NORMAL_200228", //kc pool
 				"contents":[
 				{
 					"skill_id":"SKL_ADVENTURE_01_P",
