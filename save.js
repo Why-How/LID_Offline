@@ -176,5 +176,5 @@ exports.setTutorialState = (tutorial) => {
 }
 
 exports.getDailyTmpl = () => {
-	return fs.readFileSync(`Data/tmpl/${(new Date).getDay()}.json`)['tmplinfo'];
+	return JSON.parse(fs.readFileSync(`Data/tmpl/${(new Date).getDay()}.json`))['tmplinfo'];
 };
