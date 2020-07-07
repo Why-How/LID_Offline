@@ -8,7 +8,7 @@ module.exports = (req, resp) => {
 		var flr = require('../Data/floors/tutorial_1.json')['flr'];
 
 		if(save.getTutorialState() > 20) {
-			flr = require('../Data/floors/main.json')['flr'];
+			flr = save.getFloor(85)["flr"];
 		}
 
 		resp.send({

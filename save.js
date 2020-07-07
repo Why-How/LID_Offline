@@ -1,5 +1,6 @@
 var fs = require('fs');
 var path = require('path');
+var floorGen = require("./generateFloor.js");
 
 const appDir = path.dirname(require.main.filename) + '/';
 
@@ -177,4 +178,8 @@ exports.setTutorialState = (tutorial) => {
 
 exports.getDailyTmpl = () => {
 	return JSON.parse(fs.readFileSync(`Data/tmpl/${(new Date).getDay()}.json`))['tmplinfo'];
+};
+
+exports.getFloor = (idx) =>{
+	return floorGen.loadFloor(idx);
 };
