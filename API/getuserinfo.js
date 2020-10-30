@@ -11,7 +11,7 @@ module.exports = (req, resp) => {
 		"all_quests": save.getAllQuests(),
 		"play_log": save.getPlaylog(),
 		"av":3,
-		"dv":146,
+		"dv":174,
 		"e":"0",
 		"st":0,
 		"emsg":"",
