@@ -5,7 +5,7 @@ module.exports = (req, resp) => {
 		"is_normal_end": 0,
 		"region": "eu",
 		"av": 3,
-		"dv": 146,
+		"dv": 184,
 		"e": "0",
 		"st": 0,
 		"emsg": "",

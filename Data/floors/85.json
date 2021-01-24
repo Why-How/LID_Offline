@@ -339,7 +339,98 @@
     "tbis": [],
     "shps": [],
     "mbss": [],
-    "zks": [],
+    "zks": [
+      {
+        "zkid": "",
+        "lvl": 1,
+        "type": "ZAKO_SCRATCH",
+        "path": "",
+        "pspts": [],
+        "rwd": {
+          "pts": [],
+          "money": 0,
+          "spirit": 0,
+          "msrs": [],
+          "items": []
+        },
+        "trbox": [],
+        "unit": "A23_ST_V02",
+        "pntid": "MET_ZAKO_TGT_01",
+        "genid": ""
+      },
+      {
+        "zkid": "",
+        "lvl": 1,
+        "type": "ZAKO_SCRATCH",
+        "path": "",
+        "pspts": [],
+        "rwd": {
+          "pts": [],
+          "money": 0,
+          "spirit": 0,
+          "msrs": [],
+          "items": []
+        },
+        "trbox": [],
+        "unit": "A01_BR_V01",
+        "pntid": "MET_ZAKO_TGT_00",
+        "genid": "ZKGEN_20"
+      },
+      {
+        "zkid": "",
+        "lvl": 1,
+        "type": "ZAKO_SCRATCH",
+        "path": "",
+        "pspts": [],
+        "rwd": {
+          "pts": [],
+          "money": 0,
+          "spirit": 0,
+          "msrs": [],
+          "items": []
+        },
+        "trbox": [],
+        "unit": "A23_ST_V02",
+        "pntid": "MET_ZAKO_TGT_00",
+        "genid": ""
+      },
+      {
+        "zkid": "",
+        "lvl": 1,
+        "type": "ZAKO_SCRATCH",
+        "path": "",
+        "pspts": [],
+        "rwd": {
+          "pts": [],
+          "money": 0,
+          "spirit": 0,
+          "msrs": [],
+          "items": []
+        },
+        "trbox": [],
+        "unit": "A27_GRP",
+        "pntid": "MET_ZAKO_TGT_01",
+        "genid": "ZKGEN_20"
+      },
+      {
+        "zkid": "",
+        "lvl": 1,
+        "type": "ZAKO_SCRATCH",
+        "path": "",
+        "pspts": [],
+        "rwd": {
+          "pts": [],
+          "money": 0,
+          "spirit": 0,
+          "msrs": [],
+          "items": []
+        },
+        "trbox": [],
+        "unit": "A27_GRP",
+        "pntid": "MET_ZAKO_TGT_00",
+        "genid": "ZKGEN_20"
+      }
+    ],
     "ffms": [],
     "msrs": [],
     "items": [],
@@ -650,5 +741,6 @@
     "bos": [],
     "vms": [],
     "is_closed_area": -1
-  }
+  },
+  "floorType":"OIL"
 }
